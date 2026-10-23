@@ -1,0 +1,210 @@
+[
+  {
+    "path": "exp/AHO/ablation/AHO_MMHRP_GCL_NoText_GraphMain_MoPE.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/AHO/ablation/AHO_MMHRP_GCL_NoText_GraphMain_MoPE.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/AHO/ablation/AHO_MMHRP_GCL_tri_MoPE_NoCond_pdall.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/AHO/ablation/AHO_MMHRP_GCL_tri_MoPE_NoCond_pdall.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/AHO/ablation/AHO_MMHRP_GCL_tri_NoMoPE_pdall.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/AHO/ablation/AHO_MMHRP_GCL_tri_NoMoPE_pdall.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/AHO/ablation/AHO_MMHRP_NoGraph_TextMain_MoPE.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/AHO/ablation/AHO_MMHRP_NoGraph_TextMain_MoPE.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/AHO/AHO_MMHRP-GCL-tri-mope.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/AHO/AHO_MMHRP-GCL-tri-mope.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/AHO/AHO_MMHRP-GCL.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/AHO/AHO_MMHRP-GCL.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/AHO/baseline/AHO_MMHRP-GCL-tri.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/AHO/baseline/AHO_MMHRP-GCL-tri.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/AHO/baseline/AHO_MMHRP-GCL.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/AHO/baseline/AHO_MMHRP-GCL.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/AHO/baseline/drfp_AHO_ANN_tp_found.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/ablation/Heck_MMHRP_GCL_NoText_GraphMain_MoPE.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/ablation/Heck_MMHRP_GCL_NoText_GraphMain_MoPE.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/ablation/Heck_MMHRP_NoGraph_TextMain_MoPE.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/ablation/Heck_MMHRP_NoGraph_TextMain_MoPE.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/ablation/MMHRP_GCL_tri_MoPE_NoCond_pdall.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/ablation/MMHRP_GCL_tri_MoPE_NoCond_pdall.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/ablation/MMHRP_GCL_tri_NoMoPE_pdall.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/ablation/MMHRP_GCL_tri_NoMoPE_pdall.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/baseline/Heck_MMHRP-GCL-tri.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/baseline/Heck_MMHRP-GCL-tri.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/baseline/Heck_MMHRP-GCL.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/baseline/Heck_MMHRP-GCL.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_GAT.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_GAT.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-MOE-extend.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-MOE-extend.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-MOE.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-MOE.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot-MOE.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot-MOE.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot-MOpE-pdall-gpu.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot-MOpE-pdall-gpu.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_Benchmark/main/Heck_MMHRP-GCL-tri-MOpE-pdall-gpu-IR_64.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_Benchmark/main/Heck_MMHRP-GCL-tri-MOpE-pdall-gpu-IR_64.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_JCP/Heck_JCP_GAT.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_JCP/Heck_JCP_GAT.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "exp/Heck_JCP/Heck_JCP_MMHRP-GCL.ipynb",
+    "change": "Capture an independent best-epoch state_dict rather than a live model reference."
+  },
+  {
+    "path": "exp/Heck_JCP/Heck_JCP_MMHRP-GCL.ipynb",
+    "change": "Save checkpoint slot 8 instead of the optional learning-rate slot."
+  },
+  {
+    "path": "utils/molecule.py",
+    "change": "Raise an actionable ValueError on invalid SMILES instead of dereferencing None; do not alter structures."
+  },
+  {
+    "path": "README.md",
+    "change": "Replace prior-project README with release-specific instructions and limits."
+  },
+  {
+    "path": "exp/*/explain/Explain-1023.py",
+    "change": "Consolidate explanation code with corrected directional support, binning and non-invasive attention extraction."
+  }
+]

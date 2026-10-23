@@ -1,0 +1,36 @@
+[Counting of Heck Intramoleculer Reaction]
+types: 1320 cases: 1372
+Reactants Num:1296
+AlphaInsertion Num:448
+BetaInsertion Num:73
+LG=F Num:0
+LG=Cl Num:65
+LG=Br Num:744
+LG=I Num:496
+LG=* Num:67
+
+RingType:5-membered Num = 535
+RingType:6-membered Num = 482
+RingType:7-membered Num = 212
+RingType:8-membered Num = 113
+RingType:9-membered Num = 30
+
+[Counting of Heck Intermolecule Reaction]
+types: 8130 cases: 8630
+Alkene Num:1361
+ArylHalide Num:4063
+AlphaInsertion Num:139
+BetaInsertion Num:7529
+LG=F Num:22
+LG=Cl Num:297
+LG=Br Num:4765
+LG=I Num:3319
+LG=* Num:227
+
+[Counting of Heck Reaction]
+Reactants Num:6718
+Products Num:8891
+Catalysts with Pd Num:45
+Catalysts without Pd Num:292
+Solvents Num:59
+

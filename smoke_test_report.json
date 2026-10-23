@@ -1,0 +1,60 @@
+{
+  "scope": "Functional integration smoke test only. No scientific accuracy or historical-figure reproduction claim.",
+  "results": [
+    {
+      "dataset": "AHO",
+      "status": "passed",
+      "checkpoint": "synthetic random weights, not included in upload",
+      "fixture_source_shuffled_indices": [
+        1,
+        5
+      ],
+      "fixture_is_full_dataset": false,
+      "checks": [
+        "strict state_dict loading",
+        "real data/sample construction",
+        "sample prediction",
+        "2x2 prediction and expert maps",
+        "population curves",
+        "static and dynamic Sankey HTML",
+        "atom masking and RDKit drawings",
+        "functional groups and BRICS masking",
+        "attention extraction preserves prediction",
+        "population prediction export",
+        "empty bins NaN",
+        "rightmost observation included",
+        "deterministic OOV embeddings",
+        "directional positive-support formula"
+      ],
+      "artifacts": 36
+    },
+    {
+      "dataset": "HeckLit",
+      "status": "passed",
+      "checkpoint": "synthetic random weights, not included in upload",
+      "fixture_source_shuffled_indices": [
+        0,
+        1
+      ],
+      "fixture_is_full_dataset": false,
+      "checks": [
+        "strict state_dict loading",
+        "real data/sample construction",
+        "sample prediction",
+        "2x2 prediction and expert maps",
+        "population curves",
+        "static and dynamic Sankey HTML",
+        "atom masking and RDKit drawings",
+        "functional groups and BRICS masking",
+        "attention extraction preserves prediction",
+        "population prediction export",
+        "empty bins NaN",
+        "rightmost observation included",
+        "deterministic OOV embeddings",
+        "directional positive-support formula"
+      ],
+      "artifacts": 34
+    }
+  ],
+  "temporary_artifacts": "E:\\codex\\release_1023_work\\release_smoke_jbxx_b_0"
+}

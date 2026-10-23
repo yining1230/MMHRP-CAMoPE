@@ -1,0 +1,34 @@
+{
+  "sample_index": 1092,
+  "index_convention": "zero-based, after shuffle",
+  "random_state": 1,
+  "dataset_samples": 11337,
+  "model_checkpoint": "/root/HeckLit-Code-main-AHO/exp/AHO/explain/AHO_MMHRP-GCL-tri-MoPE-tidu_rs=1-explain/model_best_epoch2expert.pth",
+  "grid_size": [
+    30,
+    30
+  ],
+  "temperature_range": [
+    -45.0,
+    100.0
+  ],
+  "pressure_range": [
+    0.1,
+    128.0
+  ],
+  "original_condition": [
+    25.0,
+    15.0,
+    50.0
+  ],
+  "fixed_third_condition": 50.0,
+  "original_prediction": 1.3010084629058838,
+  "prediction_range": [
+    0.799189567565918,
+    3.691601276397705
+  ],
+  "plotted_quantity": "raw model scalar prediction, as in source notebook",
+  "colorbar_label": "Predicted \u0394\u0394G (copied from source notebook)",
+  "source_notebook": "/root/HeckLit-Code-main-AHO/exp/AHO/explain/\u89e3\u91ca\u6027\u5206\u6790-0315-\u65e0loss-best-\u4fee\u6b63\u4e86graph\u90e8\u5206-\u6837\u672c1092.ipynb",
+  "device": "cpu"
+}

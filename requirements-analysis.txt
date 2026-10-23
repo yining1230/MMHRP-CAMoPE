@@ -1,0 +1,17 @@
+# Direct analysis dependencies; match package versions to your checkpoint runtime.
+# Install CPU/CUDA-specific PyTorch and PyG builds for your own environment.
+numpy
+pandas
+openpyxl
+torch
+torch-geometric
+scipy
+scikit-learn
+rdkit
+matplotlib
+plotly
+lxml
+beautifulsoup4
+tqdm
+# Legacy fingerprint/baseline tasks may need rxnfp, drfp, gensim, seaborn,
+# xgboost, lightgbm and hyperopt. The original pkgs.txt is an environment snapshot.

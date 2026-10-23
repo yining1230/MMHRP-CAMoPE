@@ -1,0 +1,8 @@
+Canvas: width=1200, height=700, PNG scale=3
+Font: Arial, size=24, color=#24364B
+Node x: [0.03, 0.03, 0.03, 0.92, 0.92]; separation=0.89
+Node y: [0.06, 0.61, 0.84, 0.10, 0.50] (experts shifted upward)
+Domain: x=[0.01,0.99], y=[0.02,0.84]
+Node pad=30, thickness=32
+Margins: left=80, right=80, top=105, bottom=65
+Background: #F8FAFD

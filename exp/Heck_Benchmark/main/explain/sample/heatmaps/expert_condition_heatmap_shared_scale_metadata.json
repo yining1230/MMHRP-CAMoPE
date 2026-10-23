@@ -1,0 +1,45 @@
+{
+  "dataset": "/root/HeckLit-Code-main/data/Heck/Heck_data_clean.xlsx",
+  "checkpoint": "/root/HeckLit-Code-main/exp/Heck_Benchmark/main/explain/MMHRP_GCL_tri_MoPE_pdall_IR_64_rs=5-best/model_best_R2.pth",
+  "random_state": 5,
+  "sample_index_after_shuffle": 3116,
+  "sample_original_condition": {
+    "temperature": 120.0,
+    "time": 24.0
+  },
+  "grid_size": 30,
+  "temperature_range": [
+    20.0,
+    220.0
+  ],
+  "time_range": [
+    0.0333333,
+    96.0
+  ],
+  "shared_colorbar_limits": [
+    0.3049401640892029,
+    0.6950598359107971
+  ],
+  "expert_ranges": {
+    "expert_0": [
+      0.3049401640892029,
+      0.5116757750511169
+    ],
+    "expert_1": [
+      0.48832419514656067,
+      0.6950598359107971
+    ]
+  },
+  "figure_size_inches": [
+    6,
+    5
+  ],
+  "dpi": 300,
+  "expected_pixel_size": [
+    1800,
+    1500
+  ],
+  "device": "cpu",
+  "smiles_max_length": 629,
+  "reaction_count": 7331
+}

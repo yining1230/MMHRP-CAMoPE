@@ -1,0 +1,2131 @@
+[
+  {
+    "source": "data/AHO/2AHO_all_condition.xlsx",
+    "destination": "data/AHO/2AHO_all_condition.xlsx",
+    "status": "copied_asset",
+    "source_sha256": "e7e6afb7a81c406a7c0f8ffd67d10cfb39386a2911b1841da43273a5f4169235",
+    "release_sha256": "e7e6afb7a81c406a7c0f8ffd67d10cfb39386a2911b1841da43273a5f4169235"
+  },
+  {
+    "source": "data/AHO/2AHO_drfp_all_condition.xlsx",
+    "destination": "data/AHO/2AHO_drfp_all_condition.xlsx",
+    "status": "copied_asset",
+    "source_sha256": "73cc502a363364b24777b73103ce3105cfc7131c2f42cf7144e07683027ec50b",
+    "release_sha256": "73cc502a363364b24777b73103ce3105cfc7131c2f42cf7144e07683027ec50b"
+  },
+  {
+    "source": "data/AHO/2AHO_rxnfp_all_condition.xlsx",
+    "destination": "data/AHO/2AHO_rxnfp_all_condition.xlsx",
+    "status": "copied_asset",
+    "source_sha256": "9e341b7af6aba75bb2861ae41849205a1b4376e8811c6094dbc17f43f126a650",
+    "release_sha256": "9e341b7af6aba75bb2861ae41849205a1b4376e8811c6094dbc17f43f126a650"
+  },
+  {
+    "source": "data/Heck/Heck processed data.xlsx",
+    "destination": "data/Heck/Heck processed data.xlsx",
+    "status": "copied_asset",
+    "source_sha256": "fce5029296b082246e94154e2efdca0fcc47a7e225c998a6beab814015409c09",
+    "release_sha256": "fce5029296b082246e94154e2efdca0fcc47a7e225c998a6beab814015409c09"
+  },
+  {
+    "source": "data/Heck/Heck raw data.xlsx",
+    "destination": "data/Heck/Heck raw data.xlsx",
+    "status": "copied_asset",
+    "source_sha256": "574c877cd664a2a8d05871ffaff62aa36885b4d5cce7517de1ba6beb4d9c1bca",
+    "release_sha256": "574c877cd664a2a8d05871ffaff62aa36885b4d5cce7517de1ba6beb4d9c1bca"
+  },
+  {
+    "source": "data/Heck/Heck_data_clean.csv",
+    "destination": "data/Heck/Heck_data_clean.csv",
+    "status": "copied_text",
+    "source_sha256": "3ffd6f799c68793c0bf614f186861c1bfb3d16376c0de71a0ada98189aff6230",
+    "release_sha256": "3ffd6f799c68793c0bf614f186861c1bfb3d16376c0de71a0ada98189aff6230"
+  },
+  {
+    "source": "data/Heck/Heck_data_clean.xlsx",
+    "destination": "data/Heck/Heck_data_clean.xlsx",
+    "status": "copied_asset",
+    "source_sha256": "337825afb2a1bac3d5ad2a68967633395a3684f39c1dd2bb3b354d34fc14d6b0",
+    "release_sha256": "337825afb2a1bac3d5ad2a68967633395a3684f39c1dd2bb3b354d34fc14d6b0"
+  },
+  {
+    "source": "data/Heck/Heck_fp.xlsx",
+    "destination": "data/Heck/Heck_fp.xlsx",
+    "status": "copied_asset",
+    "source_sha256": "8f068bd9d9d96fbe8c8ef6578bff2781d86509c537442942c034deb19a5dd425",
+    "release_sha256": "8f068bd9d9d96fbe8c8ef6578bff2781d86509c537442942c034deb19a5dd425"
+  },
+  {
+    "source": "data/Heck/JCP processed data.xlsx",
+    "destination": "data/Heck/JCP processed data.xlsx",
+    "status": "copied_asset",
+    "source_sha256": "3e8eb9c4c3f877bb09c653ea2b2961bb3df77af75e9d8b2cec7b9f836b3d667b",
+    "release_sha256": "3e8eb9c4c3f877bb09c653ea2b2961bb3df77af75e9d8b2cec7b9f836b3d667b"
+  },
+  {
+    "source": "data/Heck/JCP raw data.xlsx",
+    "destination": "data/Heck/JCP raw data.xlsx",
+    "status": "copied_asset",
+    "source_sha256": "2a971730dd974cadd21704a3baac96450d5aab51e9332a7c3b82354ee56d4a96",
+    "release_sha256": "2a971730dd974cadd21704a3baac96450d5aab51e9332a7c3b82354ee56d4a96"
+  },
+  {
+    "source": "data/Heck/README.md",
+    "destination": "data/Heck/README.md",
+    "status": "copied_text",
+    "source_sha256": "2658fd13feb8aa01c6f16a94854aa72026e21e9107b0ddb0f0183d4eaf92e94d",
+    "release_sha256": "494eb8245cb6e0044880d261ac0cd526cb970a1b335a2bf0295eddce23cbc8d6"
+  },
+  {
+    "source": "data_process/Dataset Report.txt",
+    "destination": "data_process/Dataset Report.txt",
+    "status": "copied_text",
+    "source_sha256": "edc1bad2bcd6f0cfcc0249ace9d0519b3ce19e3cc5fc3b3dff524d8ae1090ca6",
+    "release_sha256": "d32dc7cd75e13ada7e595f8c200a66958bbd57f7ca6ae252fa8fead300b29d44"
+  },
+  {
+    "source": "data_process/DR Figures.py",
+    "destination": "data_process/DR Figures.py",
+    "status": "copied_text",
+    "source_sha256": "175e6a0953aa63232319f4021a305fa988ccc60fec0e0b900933156510dc30bc",
+    "release_sha256": "a290bd81c584296ac42fe56e6859702b228bf90cdf984c78925dd878e7eebc66"
+  },
+  {
+    "source": "data_process/fp_generator.py",
+    "destination": "data_process/fp_generator.py",
+    "status": "copied_text",
+    "source_sha256": "84c9ce64ff990c0242607e1b21993b8332e02bf9976f78cd49a2b51702153106",
+    "release_sha256": "1f1b8a7e501a5ac04b70d09e222f05056f01174a132f9ae5e86312eb818cfb40"
+  },
+  {
+    "source": "data_process/Heck clean1.py",
+    "destination": "data_process/Heck clean1.py",
+    "status": "copied_text",
+    "source_sha256": "3f7750d0fc62cd8e66d02331e6b043cb7b8977656226dba6778e7b7c185b6c7d",
+    "release_sha256": "fc90b7de9aa888021954543d695443a1593d9111ab4a7a53a6b029d6b0cf9278"
+  },
+  {
+    "source": "data_process/Heck clean2.py",
+    "destination": "data_process/Heck clean2.py",
+    "status": "copied_text",
+    "source_sha256": "33b22dd07e8b797bea916898f17d06ac0f3fbb80130d948cb96700305e56ba76",
+    "release_sha256": "fb9a2bf7ce6a6ac019d11df23cc85f19c78ce7b5e2f083aab5f58e9df4239102"
+  },
+  {
+    "source": "data_process/Heck clean3.py",
+    "destination": "data_process/Heck clean3.py",
+    "status": "copied_text",
+    "source_sha256": "58a40490065922368d4487cc32197c907191a9943792b577c8695f2794e2630b",
+    "release_sha256": "ca61453c43077bed2da8de32196300d7ce643f2b6d93895857af03cbed624ef0"
+  },
+  {
+    "source": "data_process/Heck split&analysis.py",
+    "destination": "data_process/Heck split&analysis.py",
+    "status": "copied_text",
+    "source_sha256": "6397c3301a7eb4251f219ed25d0c5c2d25ecafe89ecac139ea59376d7eb28198",
+    "release_sha256": "c240d6123d15b081d4f9b1bf5d0ac52bf6f9af7418b00d92a5cd0e334a839763"
+  },
+  {
+    "source": "data_process/JCP analysis.py",
+    "destination": "data_process/JCP analysis.py",
+    "status": "copied_text",
+    "source_sha256": "32105df4655941ba929c767e068ef5154d09b342157d0f18d8448a8a2fae6365",
+    "release_sha256": "0e0c406e2a94f99835dd9e94b67dce0416e5eb4f24f1a54e8f64972126a8a025"
+  },
+  {
+    "source": "exp/AHO/.ipynb_checkpoints/AHO_MMHRP-GCL-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "03132cb81dc5d48c545bef37c3e3fe4e569d7ff3893e8384dd9a5cb74b829181"
+  },
+  {
+    "source": "exp/AHO/.ipynb_checkpoints/AHO_MMHRP-GCL-tri-mope_(2\u9428\u52ec\u6902\u934a\u6b0e\u7b09\u741b%3F-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "c516e9a3c8694297bcb42cd16c90ec347de906e10fb1db8e306cfd907b46fa2e"
+  },
+  {
+    "source": "exp/AHO/.ipynb_checkpoints/AHO_MMHRP-GCL-tri-mope_3\u6d93\ue043\u7b13\u7039%3F\u59ca\ue21a\u5bb3\u7441\u4f78\u58c0-\u6dc7\u6fc6\u74e8\u93c8\u20ac\u6d63\u866b\u0101\u9368%3Fcheckpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "7567560ef10dfdc8d37ac4bc914fea116af5b3924566877f874c0c3eb1d314f2"
+  },
+  {
+    "source": "exp/AHO/.ipynb_checkpoints/AHO_MMHRP-GCL-tri-mope_\u59ca\ue21a\u5bb3\u7441\u4f78\u58c0-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "1abce0df356a49738531583994c7c0d4586f8b5d08fa6a58004883460b74f2b3"
+  },
+  {
+    "source": "exp/AHO/.ipynb_checkpoints/AHO_MMHRP-GCL-tri-mope_\u59ca\ue21a\u5bb3\u7441\u4f78\u58c0-\u6dc7\u6fc6\u74e8\u93c8\u20ac\u6d63\u866b\u0101\u9368%3Fcheckpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "1e309e914838514a509a6c5f4db2ed658c9641594a02912875f6950e44773783"
+  },
+  {
+    "source": "exp/AHO/.ipynb_checkpoints/AHO_MMHRP-GCL-tri-onehot-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "a1da700281b0210a1bb1bc870287f45472ff45c6a3108705951d79bd5d6874df"
+  },
+  {
+    "source": "exp/AHO/.ipynb_checkpoints/one-hot\u9422\u71b8\u579a-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "91498da9deddecdb68241e83483c779c05c3981509df22bba53a22a13c481636"
+  },
+  {
+    "source": "exp/AHO/.ipynb_checkpoints/Untitled-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "4a62b68a633d79c53a6fd8893e8ea42dcf2b9a8a3e907b1b9861661f04f21517"
+  },
+  {
+    "source": "exp/AHO/.ipynb_checkpoints/\u7459\uff49\u5674\u93ac\u0443\u578e\u93cb%3F0226-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "2a8e669e5de1cdbbb98ab5ea88233654989f4dbcd3e6a00e6118ce9efcff7371"
+  },
+  {
+    "source": "exp/AHO/.ipynb_checkpoints/\u7459\uff49\u5674\u93ac\u0443\u578e\u93cb%3F0310MoPE-\u59ca\ue21a\u5bb3\u7441\u4f78\u58c0-\u7035\u901b\u7b09\u935a\u5c7e\u0101\u93ac\u4f78\u7584\u941c\u677f\u59e9\u93ac\u4f7d\u769f\u93c1\u5bf8\u6b91\u9365%3Fcheckpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "20ab48e92360d8483e3b97f8ed4dbbb767f9a426edd690207406d4bc2c97aa4d"
+  },
+  {
+    "source": "exp/AHO/.ipynb_checkpoints/\u7459\uff49\u5674\u93ac\u0443\u578e\u93cb%3F0310MoPE-\u7035\u901b\u7b09\u935a\u5c7e\u0101\u93ac\u4f78\u7584\u941c\u677f\u59e9\u93ac\u4f7d\u769f\u93c1\u5bf8\u6b91\u9365%3Fcheckpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "8e935433969561f9ee7c05d947155d05e86184fac4ee49346d8bed9721812072"
+  },
+  {
+    "source": "exp/AHO/.ipynb_checkpoints/\u7459\uff49\u5674\u93ac\u0443\u578e\u93cb%3Fcheckpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "68c44006c2e7875c2703e731b752c15493cac585c0127b9abb302de28f4d6be2"
+  },
+  {
+    "source": "exp/AHO/ablation/.ipynb_checkpoints/AHO_MMHRP_GCL_NoText_GraphMain_MoPE-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "aea6b6a2217011a3552634082b5b3f21ed3cc93eb0574e0227eff75e8f9b122d"
+  },
+  {
+    "source": "exp/AHO/ablation/.ipynb_checkpoints/AHO_MMHRP_GCL_tri_MoPE_NoCond_pdall-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "cf28a708334a7035659faefde6896f6cbcea8f891fa7b257d6e6baee7a476ddf"
+  },
+  {
+    "source": "exp/AHO/ablation/.ipynb_checkpoints/AHO_MMHRP_GCL_tri_NoMoPE_pdall-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "fa54804ca54969e97509cf3029edca5f19d8f48e009326f44c60d58cb48a2d90"
+  },
+  {
+    "source": "exp/AHO/ablation/.ipynb_checkpoints/AHO_MMHRP_NoGraph_TextMain_MoPE-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "1f7cc307746f4a13183cd036f197b5eecc9158cc4be89a5662b550a9198f4420"
+  },
+  {
+    "source": "exp/AHO/ablation/AHO_MMHRP_GCL_NoText_GraphMain_MoPE.ipynb",
+    "destination": "exp/AHO/ablation/AHO_MMHRP_GCL_NoText_GraphMain_MoPE.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "5fb5476ff50c4db6c72cd49a41bb1440e4ca03eeb542eed699d0cf2c797b4b9d",
+    "release_sha256": "fa17a2ed341fe4dad68047f6efd5ac93ec0d4581b2fc7d4f8bd0ca672791c714"
+  },
+  {
+    "source": "exp/AHO/ablation/AHO_MMHRP_GCL_tri_MoPE_NoCond_pdall.ipynb",
+    "destination": "exp/AHO/ablation/AHO_MMHRP_GCL_tri_MoPE_NoCond_pdall.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "cf28a708334a7035659faefde6896f6cbcea8f891fa7b257d6e6baee7a476ddf",
+    "release_sha256": "472e82beb3566a310cd831a50ebb016ad3ff35529e4bca5888cb648f0809c647"
+  },
+  {
+    "source": "exp/AHO/ablation/AHO_MMHRP_GCL_tri_NoMoPE_pdall.ipynb",
+    "destination": "exp/AHO/ablation/AHO_MMHRP_GCL_tri_NoMoPE_pdall.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "5681355380defed1170670632fd1d5c19e1a3e11290a4aa8d953fd9194b6171a",
+    "release_sha256": "3605c9c847da0b4359951539b00e6a64f79246b94445ee42fca3a35b2696c3cf"
+  },
+  {
+    "source": "exp/AHO/ablation/AHO_MMHRP_NoGraph_TextMain_MoPE.ipynb",
+    "destination": "exp/AHO/ablation/AHO_MMHRP_NoGraph_TextMain_MoPE.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "1f7cc307746f4a13183cd036f197b5eecc9158cc4be89a5662b550a9198f4420",
+    "release_sha256": "201eab19d03bc6595c6f22117c562e6edff46c192a3fea119c4712e3906f4c68"
+  },
+  {
+    "source": "exp/AHO/AHO_MMHRP-GCL-tri-mope.ipynb",
+    "destination": "exp/AHO/AHO_MMHRP-GCL-tri-mope.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "1abce0df356a49738531583994c7c0d4586f8b5d08fa6a58004883460b74f2b3",
+    "release_sha256": "8ed7b6ef87590e03b3c390b4975414799ca447cd82942718ece5f60d25a81f3e"
+  },
+  {
+    "source": "exp/AHO/AHO_MMHRP-GCL.ipynb",
+    "destination": "exp/AHO/AHO_MMHRP-GCL.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "03132cb81dc5d48c545bef37c3e3fe4e569d7ff3893e8384dd9a5cb74b829181",
+    "release_sha256": "12cb7eec066bccc0b975a72c181f7f7d1a5919fb60b33035016767508e3d3699"
+  },
+  {
+    "source": "exp/AHO/baseline/.ipynb_checkpoints/AHO_MMHRP-GCL-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "3e15cbb1159ad86bb8b135197a1d941b28d282a7a007246f9cef561ee456c1ae"
+  },
+  {
+    "source": "exp/AHO/baseline/.ipynb_checkpoints/AHO_MMHRP-GCL-tri-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "ee40a70b0dbf9e9738961a76c0fd99c65857b902e3c24963a0e8bf93ff29ceab"
+  },
+  {
+    "source": "exp/AHO/baseline/.ipynb_checkpoints/drfp_AHO_ANN_tp_found-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "bfdd127f8702f4e394684c1a0047c3e32ed7b03a47de4f0dbc57b1fcedad64a3"
+  },
+  {
+    "source": "exp/AHO/baseline/AHO_MMHRP-GCL-tri.ipynb",
+    "destination": "exp/AHO/baseline/AHO_MMHRP-GCL-tri.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "ee40a70b0dbf9e9738961a76c0fd99c65857b902e3c24963a0e8bf93ff29ceab",
+    "release_sha256": "09e32d0f55673fce9350241912a6766403c6ca2abf89b9853d0270179969b832"
+  },
+  {
+    "source": "exp/AHO/baseline/AHO_MMHRP-GCL.ipynb",
+    "destination": "exp/AHO/baseline/AHO_MMHRP-GCL.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "3e15cbb1159ad86bb8b135197a1d941b28d282a7a007246f9cef561ee456c1ae",
+    "release_sha256": "f160a2f4fcab38c3b5d048cf9e362cf87a3b8369549e82583c363bd2e3be5258"
+  },
+  {
+    "source": "exp/AHO/baseline/drfp_AHO_ANN_tp_found.ipynb",
+    "destination": "exp/AHO/baseline/drfp_AHO_ANN_tp_found.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "bfdd127f8702f4e394684c1a0047c3e32ed7b03a47de4f0dbc57b1fcedad64a3",
+    "release_sha256": "b5281b22a3368245b36a75cee888788e880683eae8af0b8c26d963b1e3f8b46f"
+  },
+  {
+    "source": "exp/AHO/explain/.ipynb_checkpoints/AHO_sankey_random-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "f991040984f0152e436b9042982c60895f838c6b3abdc6870b6ffeca10d1a8c3"
+  },
+  {
+    "source": "exp/AHO/explain/.ipynb_checkpoints/condition_temp_pressure_heatmap-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "510941447cd2107f52161b5c125bb155512185e84392efbc974c276b0e1ca0f2"
+  },
+  {
+    "source": "exp/AHO/explain/.ipynb_checkpoints/expert_0_temp_pressure_heatmap-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "e96238883b610ee9fc47d52c7b072376a333a4b758b22bad1182bb17c1fde84e"
+  },
+  {
+    "source": "exp/AHO/explain/.ipynb_checkpoints/expert_1_temp_pressure_heatmap-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "c5ea7f33fd5f47d402c51f2dd81c371fb0be43530d5c2125c684b0ba37283661"
+  },
+  {
+    "source": "exp/AHO/explain/.ipynb_checkpoints/expert_usage-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "8f7970b47d45d5ef6608d1b79cbc9758b19d9e4e9f6dafe21116d3c5a7f08fa1"
+  },
+  {
+    "source": "exp/AHO/explain/.ipynb_checkpoints/expert_vs_pressure-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "69ca091a50daf99eb377cc9511f0ccd04820d9a463cd7ecd3284696c914ae537"
+  },
+  {
+    "source": "exp/AHO/explain/.ipynb_checkpoints/expert_vs_temperature-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "ac96112281106450844eab08873cf1ee2248b0b8a7542ca9910ec573675ab6ea"
+  },
+  {
+    "source": "exp/AHO/explain/.ipynb_checkpoints/top5000_smallest_error_samples-checkpoint.csv",
+    "status": "excluded_cache",
+    "sha256": "dbff8502335bba72bea2238216f66bd5479a1fa76edc3390de3af9c11280080c"
+  },
+  {
+    "source": "exp/AHO/explain/.ipynb_checkpoints/\u7459\uff49\u5674\u93ac\u0443\u578e\u93cb%3F0313-\u93c3\u7208oss-best-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "6de4efdd580664512d9fe0ec8bbc64295d6931deff836fe0c3206a4be4189602"
+  },
+  {
+    "source": "exp/AHO/explain/.ipynb_checkpoints/\u7459\uff49\u5674\u93ac\u0443\u578e\u93cb%3F0315-\u93c3\u7208oss-best-\u6dc7\ue1bd\ue11c\u6d5c\u5503raph\u95ae\u3125\u578e-\u93cd\u950b\u6e701092-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "3ee1c99f43a588480fff8359fb25fd6cb0d4bc17872e9e0099fbf488cf39c037"
+  },
+  {
+    "source": "exp/AHO/explain/.ipynb_checkpoints/\u7459\uff49\u5674\u93ac\u0443\u578e\u93cb%3F0315-\u93c3\u7208oss-best-\u6dc7\ue1bd\ue11c\u6d5c\u5503raph\u95ae\u3125\u578e-\u93cd\u950b\u6e701092-\u9358\u71b7\ue750\u9428\u52ec\u6783\u6d60%3Fcheckpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "3ee1c99f43a588480fff8359fb25fd6cb0d4bc17872e9e0099fbf488cf39c037"
+  },
+  {
+    "source": "exp/AHO/explain/.ipynb_checkpoints/\u7459\uff49\u5674\u93ac\u0443\u578e\u93cb%3F0315-\u93c3\u7208oss-best-\u6dc7\ue1bd\ue11c\u6d5c\u5503raph\u95ae\u3125\u578e-\u93cd\u950b\u6e707518-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "5c08afaab8eb8c39787bd948511e20e7098a5abf0b24a28157aae6a1661782f9"
+  },
+  {
+    "source": "exp/AHO/explain/.ipynb_checkpoints/\u7459\uff49\u5674\u93ac\u0443\u578e\u93cb%3F2expert-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "93103b139800ae15e9ccfa0614d2dab282ecf3428ab567b5ceaf5cd7b3b8fcf9"
+  },
+  {
+    "source": "exp/AHO/explain/AHO_sankey_random.png",
+    "destination": "exp/AHO/explain/AHO_sankey_random.png",
+    "status": "copied_asset",
+    "source_sha256": "f991040984f0152e436b9042982c60895f838c6b3abdc6870b6ffeca10d1a8c3",
+    "release_sha256": "f991040984f0152e436b9042982c60895f838c6b3abdc6870b6ffeca10d1a8c3"
+  },
+  {
+    "source": "exp/AHO/explain/all_samples_ddg_prediction.csv",
+    "destination": "exp/AHO/explain/all_samples_ddg_prediction.csv",
+    "status": "copied_text",
+    "source_sha256": "28c5fa1f449f92aa40744ee386c7912b254544a11c3d2d4ecfe25fa4522eac1a",
+    "release_sha256": "d53d197eed27a8b62d700c873ff059c4e63191b25340ca995d6697e9252eecb6"
+  },
+  {
+    "source": "exp/AHO/explain/condition_temp_pressure_heatmap.png",
+    "destination": "exp/AHO/explain/condition_temp_pressure_heatmap.png",
+    "status": "copied_asset",
+    "source_sha256": "510941447cd2107f52161b5c125bb155512185e84392efbc974c276b0e1ca0f2",
+    "release_sha256": "510941447cd2107f52161b5c125bb155512185e84392efbc974c276b0e1ca0f2"
+  },
+  {
+    "source": "exp/AHO/explain/expert_0_temp_pressure_heatmap.png",
+    "destination": "exp/AHO/explain/expert_0_temp_pressure_heatmap.png",
+    "status": "copied_asset",
+    "source_sha256": "e96238883b610ee9fc47d52c7b072376a333a4b758b22bad1182bb17c1fde84e",
+    "release_sha256": "e96238883b610ee9fc47d52c7b072376a333a4b758b22bad1182bb17c1fde84e"
+  },
+  {
+    "source": "exp/AHO/explain/expert_1_temp_pressure_heatmap.png",
+    "destination": "exp/AHO/explain/expert_1_temp_pressure_heatmap.png",
+    "status": "copied_asset",
+    "source_sha256": "c5ea7f33fd5f47d402c51f2dd81c371fb0be43530d5c2125c684b0ba37283661",
+    "release_sha256": "c5ea7f33fd5f47d402c51f2dd81c371fb0be43530d5c2125c684b0ba37283661"
+  },
+  {
+    "source": "exp/AHO/explain/expert_usage.png",
+    "destination": "exp/AHO/explain/expert_usage.png",
+    "status": "copied_asset",
+    "source_sha256": "8f7970b47d45d5ef6608d1b79cbc9758b19d9e4e9f6dafe21116d3c5a7f08fa1",
+    "release_sha256": "8f7970b47d45d5ef6608d1b79cbc9758b19d9e4e9f6dafe21116d3c5a7f08fa1"
+  },
+  {
+    "source": "exp/AHO/explain/expert_vs_pressure.png",
+    "destination": "exp/AHO/explain/expert_vs_pressure.png",
+    "status": "copied_asset",
+    "source_sha256": "69ca091a50daf99eb377cc9511f0ccd04820d9a463cd7ecd3284696c914ae537",
+    "release_sha256": "69ca091a50daf99eb377cc9511f0ccd04820d9a463cd7ecd3284696c914ae537"
+  },
+  {
+    "source": "exp/AHO/explain/expert_vs_temperature.png",
+    "destination": "exp/AHO/explain/expert_vs_temperature.png",
+    "status": "copied_asset",
+    "source_sha256": "ac96112281106450844eab08873cf1ee2248b0b8a7542ca9910ec573675ab6ea",
+    "release_sha256": "ac96112281106450844eab08873cf1ee2248b0b8a7542ca9910ec573675ab6ea"
+  },
+  {
+    "source": "exp/AHO/explain/Explain-all.ipynb",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "ece814f218763e48fcd307b94affeaaafaffc86d3cc73959e9407d889d4e568a"
+  },
+  {
+    "source": "exp/AHO/explain/generate_expert_vs_temperature_pressure_aho_0315_ylim0400_0600.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "c673e33445a869cd3501efaa263a531df0ba1fa55231ff29cf2492d47b09d884"
+  },
+  {
+    "source": "exp/AHO/explain/make_annotated_directional_sankey.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "2b283957c862789e296ef22adb1f04cb5b120c8aa371618ed7d9c96c5c57c6b0"
+  },
+  {
+    "source": "exp/AHO/explain/make_directional_sankey_notebook.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "d05158b48d228ece440670f5ec88d79a483fde4036c2c2d5dbff4ff07d159207"
+  },
+  {
+    "source": "exp/AHO/explain/run_directional_sankey_notebook.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "60fdd53757925f48b0c26da9fcd04bd3fd782155c5a26d35bece032c65d6baf9"
+  },
+  {
+    "source": "exp/AHO/explain/run_directional_sankey_streaming.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "540d85e4f3976075ed2dc4baa1d8c7a4efa5223af943907899a6f93786991ff1"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/AHO_attention_heatmap-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "5ad5c856f9ef51cd6491d2a4ee819940250f46f404f32eedd6f5a701d049ad24"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/AHO_react_prod_atom_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "234434c9242d02710b581d032e70f2711a7f3af4fc18c3b6751eb2e302248b8c"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/AHO_reactant_product_importance_abs-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "ea7fbeb926e9e8a96e2d59e6ce940a03ae122f0a19d309cfaabbe08b4ab6435b"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/AHO_reactant_product_importance_signed-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "f25b683bcc61a40854f0b8f41ee14fb67af20e796ecefa986a4af169b16deaa5"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/AHO_smiles_token_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "8a7f0b95dab56c06d28c72c2c3f25ac595a5123da078f4b31fc06d3c427c50b8"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/AHO_solv_cat_atom_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "63a2d432057dc9022b0ec70ecfb937a32559ea023530184a527bd83d386cf2a7"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/AHO_solvent_catalyst_importance_abs-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "1bc6277b77cd793cab44a1810cea43f1d477f6b5a1092d194c3a38fedde59f3d"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/AHO_solvent_catalyst_importance_signed-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "6ab9f18f24a093396f7785eadf70ae55abbfece94910096b208e63748cb9f7ac"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/attention_heatmap-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "10eb55b01557f0168ef5babb63a834907eab9b6f3e6a54a0f16f849d89e21a74"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/BRICS_condition_fragment_map-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "13aabb5b935d166e4d158d75071092744c0c5d1d043d95fe507607ec5089f0a5"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/BRICS_reaction_fragment_map-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "37bd17cbcdc7241d5c9819dbc52efab44ac77147a90f18155ae9b90584bacdf2"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/expert_usage-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "8f7970b47d45d5ef6608d1b79cbc9758b19d9e4e9f6dafe21116d3c5a7f08fa1"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/expert_vs_pressure-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "9bd8db4be22948eef50dc127cb421bb86d4e3239c973c6279e32cb3ff40d7967"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/expert_vs_temperature-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "68c360931b9ca952eacaf586bb0a033a42837d8cad1ff0cabaedf9e20d5951f1"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/reaction_atom_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "f624d0781926a9f2b7b863b4e62d1996803d82485e4867d2042571a23ab24efa"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/single_reaction_group_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "e80e8da0bbd12f82abcfc178ece258e4bcf2d1dfdf9299d1153a7805f539cff2"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/smiles_token_importance_idx-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "d79c37465dcbd261e7d17069f31bccd4c582f2b3cef482235faf218a723849fc"
+  },
+  {
+    "source": "exp/AHO/explain/sample/.ipynb_checkpoints/smiles_token_importance\u9225\u65ba\u20ac%3F904-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "d44d2ceaf3a39fe6a123e8697d3c3fbfe87324492da4cb414ae2a43da82cb8c4"
+  },
+  {
+    "source": "exp/AHO/explain/sample/AHO_attention_heatmap.png",
+    "destination": "exp/AHO/explain/sample/AHO_attention_heatmap.png",
+    "status": "copied_asset",
+    "source_sha256": "5ad5c856f9ef51cd6491d2a4ee819940250f46f404f32eedd6f5a701d049ad24",
+    "release_sha256": "5ad5c856f9ef51cd6491d2a4ee819940250f46f404f32eedd6f5a701d049ad24"
+  },
+  {
+    "source": "exp/AHO/explain/sample/AHO_react_prod_atom_importance.png",
+    "destination": "exp/AHO/explain/sample/AHO_react_prod_atom_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "234434c9242d02710b581d032e70f2711a7f3af4fc18c3b6751eb2e302248b8c",
+    "release_sha256": "234434c9242d02710b581d032e70f2711a7f3af4fc18c3b6751eb2e302248b8c"
+  },
+  {
+    "source": "exp/AHO/explain/sample/AHO_reactant_product_importance_abs.png",
+    "destination": "exp/AHO/explain/sample/AHO_reactant_product_importance_abs.png",
+    "status": "copied_asset",
+    "source_sha256": "ea7fbeb926e9e8a96e2d59e6ce940a03ae122f0a19d309cfaabbe08b4ab6435b",
+    "release_sha256": "ea7fbeb926e9e8a96e2d59e6ce940a03ae122f0a19d309cfaabbe08b4ab6435b"
+  },
+  {
+    "source": "exp/AHO/explain/sample/AHO_reactant_product_importance_signed.png",
+    "destination": "exp/AHO/explain/sample/AHO_reactant_product_importance_signed.png",
+    "status": "copied_asset",
+    "source_sha256": "f25b683bcc61a40854f0b8f41ee14fb67af20e796ecefa986a4af169b16deaa5",
+    "release_sha256": "f25b683bcc61a40854f0b8f41ee14fb67af20e796ecefa986a4af169b16deaa5"
+  },
+  {
+    "source": "exp/AHO/explain/sample/AHO_smiles_token_importance.png",
+    "destination": "exp/AHO/explain/sample/AHO_smiles_token_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "8a7f0b95dab56c06d28c72c2c3f25ac595a5123da078f4b31fc06d3c427c50b8",
+    "release_sha256": "8a7f0b95dab56c06d28c72c2c3f25ac595a5123da078f4b31fc06d3c427c50b8"
+  },
+  {
+    "source": "exp/AHO/explain/sample/AHO_solv_cat_atom_importance.png",
+    "destination": "exp/AHO/explain/sample/AHO_solv_cat_atom_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "63a2d432057dc9022b0ec70ecfb937a32559ea023530184a527bd83d386cf2a7",
+    "release_sha256": "63a2d432057dc9022b0ec70ecfb937a32559ea023530184a527bd83d386cf2a7"
+  },
+  {
+    "source": "exp/AHO/explain/sample/AHO_solvent_catalyst_importance_abs.png",
+    "destination": "exp/AHO/explain/sample/AHO_solvent_catalyst_importance_abs.png",
+    "status": "copied_asset",
+    "source_sha256": "1bc6277b77cd793cab44a1810cea43f1d477f6b5a1092d194c3a38fedde59f3d",
+    "release_sha256": "1bc6277b77cd793cab44a1810cea43f1d477f6b5a1092d194c3a38fedde59f3d"
+  },
+  {
+    "source": "exp/AHO/explain/sample/AHO_solvent_catalyst_importance_signed.png",
+    "destination": "exp/AHO/explain/sample/AHO_solvent_catalyst_importance_signed.png",
+    "status": "copied_asset",
+    "source_sha256": "6ab9f18f24a093396f7785eadf70ae55abbfece94910096b208e63748cb9f7ac",
+    "release_sha256": "6ab9f18f24a093396f7785eadf70ae55abbfece94910096b208e63748cb9f7ac"
+  },
+  {
+    "source": "exp/AHO/explain/sample/AHO_transformer_attention.npy",
+    "destination": "exp/AHO/explain/sample/AHO_transformer_attention.npy",
+    "status": "copied_asset",
+    "source_sha256": "601db7dfb006fbf26e6f7fbd97e5002920942eb03214c89ba051805d015b027a",
+    "release_sha256": "601db7dfb006fbf26e6f7fbd97e5002920942eb03214c89ba051805d015b027a"
+  },
+  {
+    "source": "exp/AHO/explain/sample/attention_heatmap.png",
+    "destination": "exp/AHO/explain/sample/attention_heatmap.png",
+    "status": "copied_asset",
+    "source_sha256": "10eb55b01557f0168ef5babb63a834907eab9b6f3e6a54a0f16f849d89e21a74",
+    "release_sha256": "10eb55b01557f0168ef5babb63a834907eab9b6f3e6a54a0f16f849d89e21a74"
+  },
+  {
+    "source": "exp/AHO/explain/sample/BRICS_condition_fragment_map.png",
+    "destination": "exp/AHO/explain/sample/BRICS_condition_fragment_map.png",
+    "status": "copied_asset",
+    "source_sha256": "13aabb5b935d166e4d158d75071092744c0c5d1d043d95fe507607ec5089f0a5",
+    "release_sha256": "13aabb5b935d166e4d158d75071092744c0c5d1d043d95fe507607ec5089f0a5"
+  },
+  {
+    "source": "exp/AHO/explain/sample/BRICS_reaction_fragment_map.png",
+    "destination": "exp/AHO/explain/sample/BRICS_reaction_fragment_map.png",
+    "status": "copied_asset",
+    "source_sha256": "37bd17cbcdc7241d5c9819dbc52efab44ac77147a90f18155ae9b90584bacdf2",
+    "release_sha256": "37bd17cbcdc7241d5c9819dbc52efab44ac77147a90f18155ae9b90584bacdf2"
+  },
+  {
+    "source": "exp/AHO/explain/sample/expert_0_temp_pressure_heatmap_no_star.png",
+    "destination": "exp/AHO/explain/sample/expert_0_temp_pressure_heatmap_no_star.png",
+    "status": "copied_asset",
+    "source_sha256": "74305dc7a800c3cec51626f16c689c4314cce31bda67a4e2577f4ae730796045",
+    "release_sha256": "74305dc7a800c3cec51626f16c689c4314cce31bda67a4e2577f4ae730796045"
+  },
+  {
+    "source": "exp/AHO/explain/sample/expert_1_temp_pressure_heatmap_no_star.png",
+    "destination": "exp/AHO/explain/sample/expert_1_temp_pressure_heatmap_no_star.png",
+    "status": "copied_asset",
+    "source_sha256": "b2d6b8a8a89c0235f18b0ef1c1cd85709a3d9a85d7d384ed6adcf8f65aec736a",
+    "release_sha256": "b2d6b8a8a89c0235f18b0ef1c1cd85709a3d9a85d7d384ed6adcf8f65aec736a"
+  },
+  {
+    "source": "exp/AHO/explain/sample/expert_usage.png",
+    "destination": "exp/AHO/explain/sample/expert_usage.png",
+    "status": "copied_asset",
+    "source_sha256": "8f7970b47d45d5ef6608d1b79cbc9758b19d9e4e9f6dafe21116d3c5a7f08fa1",
+    "release_sha256": "8f7970b47d45d5ef6608d1b79cbc9758b19d9e4e9f6dafe21116d3c5a7f08fa1"
+  },
+  {
+    "source": "exp/AHO/explain/sample/expert_vs_pressure.png",
+    "destination": "exp/AHO/explain/sample/expert_vs_pressure.png",
+    "status": "copied_asset",
+    "source_sha256": "9bd8db4be22948eef50dc127cb421bb86d4e3239c973c6279e32cb3ff40d7967",
+    "release_sha256": "9bd8db4be22948eef50dc127cb421bb86d4e3239c973c6279e32cb3ff40d7967"
+  },
+  {
+    "source": "exp/AHO/explain/sample/expert_vs_temperature.png",
+    "destination": "exp/AHO/explain/sample/expert_vs_temperature.png",
+    "status": "copied_asset",
+    "source_sha256": "68c360931b9ca952eacaf586bb0a033a42837d8cad1ff0cabaedf9e20d5951f1",
+    "release_sha256": "68c360931b9ca952eacaf586bb0a033a42837d8cad1ff0cabaedf9e20d5951f1"
+  },
+  {
+    "source": "exp/AHO/explain/sample/generate_heatmaps_without_star.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "20d05dd4572cb71a6dce667b0ed39385bc374705ae8726c183712902be29fe0f"
+  },
+  {
+    "source": "exp/AHO/explain/sample/generation_metadata.json",
+    "destination": "exp/AHO/explain/sample/generation_metadata.json",
+    "status": "copied_text",
+    "source_sha256": "d2ce4b2f37b3f9b3b4d97d1f29eb751021847af0900fbc49ba2509f9b5b450e1",
+    "release_sha256": "d2ce4b2f37b3f9b3b4d97d1f29eb751021847af0900fbc49ba2509f9b5b450e1"
+  },
+  {
+    "source": "exp/AHO/explain/sample/pressure_0_120_no_title_grid/.ipynb_checkpoints/expert_vs_pressure-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "954e5263f5a975de23caaf5a2eeeb77c9a58bad2af337040a63e1ec1fc020771"
+  },
+  {
+    "source": "exp/AHO/explain/sample/pressure_0_120_no_title_grid/expert_vs_pressure.png",
+    "destination": "exp/AHO/explain/sample/pressure_0_120_no_title_grid/expert_vs_pressure.png",
+    "status": "copied_asset",
+    "source_sha256": "954e5263f5a975de23caaf5a2eeeb77c9a58bad2af337040a63e1ec1fc020771",
+    "release_sha256": "954e5263f5a975de23caaf5a2eeeb77c9a58bad2af337040a63e1ec1fc020771"
+  },
+  {
+    "source": "exp/AHO/explain/sample/reaction_atom_importance.png",
+    "destination": "exp/AHO/explain/sample/reaction_atom_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "f624d0781926a9f2b7b863b4e62d1996803d82485e4867d2042571a23ab24efa",
+    "release_sha256": "f624d0781926a9f2b7b863b4e62d1996803d82485e4867d2042571a23ab24efa"
+  },
+  {
+    "source": "exp/AHO/explain/sample/single_reaction_group_importance.png",
+    "destination": "exp/AHO/explain/sample/single_reaction_group_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "e80e8da0bbd12f82abcfc178ece258e4bcf2d1dfdf9299d1153a7805f539cff2",
+    "release_sha256": "e80e8da0bbd12f82abcfc178ece258e4bcf2d1dfdf9299d1153a7805f539cff2"
+  },
+  {
+    "source": "exp/AHO/explain/sample/smiles_token_importance_idx.png",
+    "destination": "exp/AHO/explain/sample/smiles_token_importance_idx.png",
+    "status": "copied_asset",
+    "source_sha256": "d79c37465dcbd261e7d17069f31bccd4c582f2b3cef482235faf218a723849fc",
+    "release_sha256": "d79c37465dcbd261e7d17069f31bccd4c582f2b3cef482235faf218a723849fc"
+  },
+  {
+    "source": "exp/AHO/explain/sample/smiles_token_importance\u9225\u65ba\u20ac%3F904.png",
+    "destination": "exp/AHO/explain/sample/smiles_token_importance_sample_904.png",
+    "status": "copied_asset",
+    "source_sha256": "d44d2ceaf3a39fe6a123e8697d3c3fbfe87324492da4cb414ae2a43da82cb8c4",
+    "release_sha256": "d44d2ceaf3a39fe6a123e8697d3c3fbfe87324492da4cb414ae2a43da82cb8c4"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/.ipynb_checkpoints/AHO_sankey_0924_balanced_spacing_v2-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "dae0df8fc7bb4bac1cce32f7eb9975c45674c6377540130a1c02906076a1652e"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/.ipynb_checkpoints/AHO_sankey_0924_balanced_spacing_v3-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "dae0df8fc7bb4bac1cce32f7eb9975c45674c6377540130a1c02906076a1652e"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/.ipynb_checkpoints/AHO_sankey_0924_experts_up_v1-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "b3f065d58be174f8b84e88cbc6ee36884f8aa5491f350fced4abe37f7d32e581"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/.ipynb_checkpoints/AHO_sankey_0924_experts_up_v2-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "0d789d4dbf21d1d41ff8f957f4638bbfc999304899d04a5e67b6d4b711f4096e"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/.ipynb_checkpoints/AHO_sankey_0924_experts_up_v3-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "2ffc71eee0f20a2653c853254696f8b932f5f0885c9611f476fb11ffbce117e7"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/.ipynb_checkpoints/AHO_sankey_0924_experts_up_v4-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "0df3ebeb06e4fd6d5fefb5704de916b9afc764f29f885f45694b06e82c7016c3"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/.ipynb_checkpoints/AHO_sankey_0924_experts_up_v5-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "7918a7e1f0e0d21facc024bae8aa8742cf4ff45917ae06e9fee2f33d5e293556"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/.ipynb_checkpoints/AHO_sankey_0924_experts_up_v6-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "33c2ed628b4ed5b858770f56020140d0623b8d4cfd47619a3c9bb1aa32b60ff6"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/.ipynb_checkpoints/AHO_sankey_0924_static-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "a006758c2dc5f783348cee7be6a7ad43265788fa709257408e4dc7ceefd3ce42"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/.ipynb_checkpoints/expert_routing_weight_distribution-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "cbe5587a8e992595b04ca38acce8167def233a19a4ca3a725122e6a8a19b032c"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/.ipynb_checkpoints/generate_sankey_0924_balanced_spacing-checkpoint.py",
+    "status": "excluded_cache",
+    "sha256": "4425e3b2bdf286e4acd5f290c8b2b1e8b491e758992be6e6c3fad9c20d0a02aa"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/.ipynb_checkpoints/\u7487\u5b58\u69d1-checkpoint.md",
+    "status": "excluded_cache",
+    "sha256": "78ca005ef744c9339625cca238443d6eb387627f1df54f50499360c0982010d2"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/AHO_sankey_0924_experts_up_v6.png",
+    "destination": "exp/AHO/explain/Sankey Figure/AHO_sankey_0924_experts_up_v6.png",
+    "status": "copied_asset",
+    "source_sha256": "33c2ed628b4ed5b858770f56020140d0623b8d4cfd47619a3c9bb1aa32b60ff6",
+    "release_sha256": "33c2ed628b4ed5b858770f56020140d0623b8d4cfd47619a3c9bb1aa32b60ff6"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/AHO_sankey_dynamic_blocks.html",
+    "destination": "exp/AHO/explain/Sankey Figure/AHO_sankey_dynamic_blocks.html",
+    "status": "copied_asset",
+    "source_sha256": "3bb414d7821422ceb11f052281a5d3b53c288d535d24631301f3de7e21d486aa",
+    "release_sha256": "db8f8a717f67592e0a84b7544419c2bcb72b946f8d6f9680e776a57aefd90e9b"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/AHO_sankey_dynamic_cumulative_values.html",
+    "destination": "exp/AHO/explain/Sankey Figure/AHO_sankey_dynamic_cumulative_values.html",
+    "status": "copied_asset",
+    "source_sha256": "b12052d6fd36b23d6fc812768a39985786b6d0e86544d763d9705b3110d652c7",
+    "release_sha256": "970249e4b2f68a6828f41b4850d4d3293efef947f2480b833bad2937ed754ffe"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/condition_temp_pressure_heatmap.png",
+    "destination": "exp/AHO/explain/Sankey Figure/condition_temp_pressure_heatmap.png",
+    "status": "copied_asset",
+    "source_sha256": "b53528426aba2670424b385307973c2a700be18b2254a9139e84aca9abc59e36",
+    "release_sha256": "b53528426aba2670424b385307973c2a700be18b2254a9139e84aca9abc59e36"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/condition_temp_pressure_heatmap_sample1092_original_point.png",
+    "destination": "exp/AHO/explain/Sankey Figure/condition_temp_pressure_heatmap_sample1092_original_point.png",
+    "status": "copied_asset",
+    "source_sha256": "6a85c69ad7f78c885e87008b35053ecf80b336d90228ce2829e2e2c1a89a8d24",
+    "release_sha256": "6a85c69ad7f78c885e87008b35053ecf80b336d90228ce2829e2e2c1a89a8d24"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/condition_temp_pressure_sample1092_grid.csv",
+    "destination": "exp/AHO/explain/Sankey Figure/condition_temp_pressure_sample1092_grid.csv",
+    "status": "copied_text",
+    "source_sha256": "08d7256962ce4d7669d176aa445f1c874533fc0f43ce06db7fb58d27bc571fd0",
+    "release_sha256": "4b1e26869538521a1430ad216f0bca49162d075f1ec6f48cbf3e8e8d55223f2c"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/condition_temp_pressure_sample1092_metadata.json",
+    "destination": "exp/AHO/explain/Sankey Figure/condition_temp_pressure_sample1092_metadata.json",
+    "status": "translated_text",
+    "source_sha256": "c6ff21095a75dd6d662b614a7a9c7331a159b0b07d2e7f957e6c38b51d99da2a",
+    "release_sha256": "0d71103b9141d498bff47da89d56cdff6cbc2776ff59e826f4017302c4f141f5"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/directional_positive_support.csv",
+    "destination": "exp/AHO/explain/Sankey Figure/directional_positive_support.csv",
+    "status": "copied_text",
+    "source_sha256": "7b3e447c4e8b5165759a1af09f724a04eb76892122c39cd5add5223e9074cc84",
+    "release_sha256": "1849d5f163f764effe38b8146c3ee0629c184fd9f9701325e747adb2a7254405"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/expert_index_diagnostics.csv",
+    "destination": "exp/AHO/explain/Sankey Figure/expert_index_diagnostics.csv",
+    "status": "copied_text",
+    "source_sha256": "d2d5ee923f1ae0b86150b35687274a8ba975b4b288ff770468f37136fb2d1f15",
+    "release_sha256": "4d30d741aa00dd74ca173dc462046eed5b6b1fc0aa2dde5e95ebffe9be67b6d1"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/expert_routing_weight_distribution.png",
+    "destination": "exp/AHO/explain/Sankey Figure/expert_routing_weight_distribution.png",
+    "status": "copied_asset",
+    "source_sha256": "cbe5587a8e992595b04ca38acce8167def233a19a4ca3a725122e6a8a19b032c",
+    "release_sha256": "cbe5587a8e992595b04ca38acce8167def233a19a4ca3a725122e6a8a19b032c"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/generate_condition_heatmap_sample.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "542acb51812ef48b92c39ae64319b9ae63379f046668b914cbc83c7ee842e9cf"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/generate_dynamic_sankey_v2.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "edf1a7961599950576d823c398cf2b24b5815962d7d69ef1fd466c4ba7dac658"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/generate_sankey_0924.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "f77b6ab124979c202aa82832a205292b47ea23d4e4ec445a47e641067d356b63"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/generate_sankey_0924_balanced_spacing.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "4425e3b2bdf286e4acd5f290c8b2b1e8b491e758992be6e6c3fad9c20d0a02aa"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/generation_metadata.json",
+    "destination": "exp/AHO/explain/Sankey Figure/generation_metadata.json",
+    "status": "copied_text",
+    "source_sha256": "bc8b2c65325b1ce028dc771acc7e3c4597de2337d17864609d7a63d67b466c13",
+    "release_sha256": "244d3a14b7fc085c9f7a8b8f1885ae7a0c2df01cc4196d7f2b36847f5e0d9868"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure/mark_condition_heatmap_sample_original.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "457476756ff8bcc119172700daf36ac6692ec04c3509c2adb79b55b70cca099a"
+  },
+  {
+    "source": "exp/AHO/explain/Sankey Figure.ipynb",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "dc601307ef6e55b540efab6a38722004f6668a9f3adbd9e2bab1e97c90181e8b"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_ANN-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "8e5f9d72b267893bd762d6821b55985a51aed94032a880ab150a448f1c537e76"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "4d12d03823f6c8333c4604565e495bd62692e012b86cdc25a433f94781237220"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-MOE-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "fd3dbe0db9cd2663fa79639359a049c0774afd57fd38f0eb1d823ab77d926176"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-MOE-extend-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "be6ad62cd02635bae1852eb1af42b8f763821a99ee01a32ce474263ae496eb3a"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-MOE-simple-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "f933b2caad0fd09ddd301070737c955cfedad39f9e9c364d1dc882c37ad21402"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "d80fb0148d52466bb122909d4d3ad2502267376269a532cdd006532005072193"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-MOE-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "00bd313e0eeedf52c0e47e4303ce56ca207c6efcff1f540ff38dc7b103f22dac"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-MOpE-pdall-gpu-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "a82ff0fa1ba987a6d4fe7b5beeedf814f14fb4c9cfa87db6b8ba6af6bc5b6997"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-MOpE-pdall-gpu-IR-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "4f528ada4fc74e56322eb13ddf92f5d2cf1936a2eaaea4282884ed38a8e8251c"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-MOpE-simple-gpu-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "0a12408256eaf66dabe93b642b5407e0b5cad93b80f3bb04d0f6a5e53dd89b83"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-onehot-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "2c8c19c9f5129157fda517e423e879d5ad751d7bf5a899c8de6b4ca614b8484e"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-onehot-MOE-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "4cb15e647ab7a72a91ffd56ad268f9334e3bcc36bf9d5f7cb9ac6ea339dec297"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-onehot-MOpE-pdall-gpu-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "bafa9928933be074246eb0214b503c3c94f10ee51d958748f7e30ec679243785"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-onehot-MOpE-simple-gpu-1216-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "ea9b7e8cbda73ee3ad58ee71642afb5b212b96eaf3ae4e0dca544ba46446fe6c"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-onehot-MOpE-simple-gpu-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "1636d543ddb4a9ebe59836aa9c63de72cc719e88e8c44775220f8c1c47602081"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-onehot-qujian-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "d29e8c3a4908698268dad33aea7eb5e422a05cf6a220f756baeeb83f3c43164e"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/one-hot\u9422\u71b8\u579a-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "91498da9deddecdb68241e83483c779c05c3981509df22bba53a22a13c481636"
+  },
+  {
+    "source": "exp/Heck_Benchmark/.ipynb_checkpoints/Untitled-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "4a62b68a633d79c53a6fd8893e8ea42dcf2b9a8a3e907b1b9861661f04f21517"
+  },
+  {
+    "source": "exp/Heck_Benchmark/ablation/.ipynb_checkpoints/Heck_MMHRP_GCL_NoText_GraphMain_MoPE-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "4168e10e1690fdd33686c2d1647521160da5dc077ae54dc607ca238be787adb2"
+  },
+  {
+    "source": "exp/Heck_Benchmark/ablation/.ipynb_checkpoints/Heck_MMHRP_NoGraph_TextMain_MoPE-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "ea83b6e55af527f2845bf8fdd33cf10ec11b8297ef0931c728829136b52c508e"
+  },
+  {
+    "source": "exp/Heck_Benchmark/ablation/.ipynb_checkpoints/MMHRP_GCL_tri_MoPE_NoCond_pdall-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "e7756fed38e52e83af087d0564cbff776ca86c83ef4007e47d6c8b2ea1a0f476"
+  },
+  {
+    "source": "exp/Heck_Benchmark/ablation/.ipynb_checkpoints/MMHRP_GCL_tri_NoMoPE_pdall-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "81a39dd6d09047c19a135119507e7aeb499914a18fcb264ba53d08d6aad481ca"
+  },
+  {
+    "source": "exp/Heck_Benchmark/ablation/Heck_MMHRP_GCL_NoText_GraphMain_MoPE.ipynb",
+    "destination": "exp/Heck_Benchmark/ablation/Heck_MMHRP_GCL_NoText_GraphMain_MoPE.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "4168e10e1690fdd33686c2d1647521160da5dc077ae54dc607ca238be787adb2",
+    "release_sha256": "9220f99c8acd19bcdbbc60e938edd1451e9d32e1d52dcb96dfdc144b64181dea"
+  },
+  {
+    "source": "exp/Heck_Benchmark/ablation/Heck_MMHRP_NoGraph_TextMain_MoPE.ipynb",
+    "destination": "exp/Heck_Benchmark/ablation/Heck_MMHRP_NoGraph_TextMain_MoPE.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "ea83b6e55af527f2845bf8fdd33cf10ec11b8297ef0931c728829136b52c508e",
+    "release_sha256": "e0ed76879348c846ef2c92ad219eddf29fbd0e0828e10ed03081a5dfbfa9fede"
+  },
+  {
+    "source": "exp/Heck_Benchmark/ablation/MMHRP_GCL_tri_MoPE_NoCond_pdall.ipynb",
+    "destination": "exp/Heck_Benchmark/ablation/MMHRP_GCL_tri_MoPE_NoCond_pdall.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "e7756fed38e52e83af087d0564cbff776ca86c83ef4007e47d6c8b2ea1a0f476",
+    "release_sha256": "af07d5ef73d99879d29c2fc3948cc782e28a7daffdb0352dd2f33a992e4a6918"
+  },
+  {
+    "source": "exp/Heck_Benchmark/ablation/MMHRP_GCL_tri_NoMoPE_pdall.ipynb",
+    "destination": "exp/Heck_Benchmark/ablation/MMHRP_GCL_tri_NoMoPE_pdall.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "81a39dd6d09047c19a135119507e7aeb499914a18fcb264ba53d08d6aad481ca",
+    "release_sha256": "a7bf43ac6aafd85ceefcd5f183a58bd0a83986a5b6954053732f575bd4fb7d77"
+  },
+  {
+    "source": "exp/Heck_Benchmark/baseline/.ipynb_checkpoints/drfp_Heck_ANN_tp_found-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "c0a66333eda2d5ed356b00b2cf4054025bce166d1c8f6a93699025751fa5e95d"
+  },
+  {
+    "source": "exp/Heck_Benchmark/baseline/.ipynb_checkpoints/Heck_MMHRP-GCL-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "e0758f4365b2453f284dbbfc8dcab4cc30825d70076b79aced533e130d0fec3f"
+  },
+  {
+    "source": "exp/Heck_Benchmark/baseline/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "00730b9a07b10ee25c71a970c9e80bdfdcc65d6f14765008465583b50a8d9278"
+  },
+  {
+    "source": "exp/Heck_Benchmark/baseline/.ipynb_checkpoints/rxnfp_Heck_ANN_tp_found-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "869f96b335ade2d780f5d955f6941d20d89c146a8bf4696f88f8abe9d50f1e4b"
+  },
+  {
+    "source": "exp/Heck_Benchmark/baseline/drfp_Heck_ANN_tp_found-onehot.ipynb",
+    "destination": "exp/Heck_Benchmark/baseline/drfp_Heck_ANN_tp_found-onehot.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "44dd47a6d97800380aa1c04e2ee8006b2e6182e6ac25151bea7088dbd62044c7",
+    "release_sha256": "2db6a0b2a02193e0d2070132427038022a9631f556fbb50b6c8ba6bca3241d89"
+  },
+  {
+    "source": "exp/Heck_Benchmark/baseline/drfp_Heck_ANN_tp_found.ipynb",
+    "destination": "exp/Heck_Benchmark/baseline/drfp_Heck_ANN_tp_found.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "c0a66333eda2d5ed356b00b2cf4054025bce166d1c8f6a93699025751fa5e95d",
+    "release_sha256": "51c3871540c4b886fa8da8567e35625517813cd6dda944e1c5260bab381bb368"
+  },
+  {
+    "source": "exp/Heck_Benchmark/baseline/Heck_MMHRP-GCL-tri.ipynb",
+    "destination": "exp/Heck_Benchmark/baseline/Heck_MMHRP-GCL-tri.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "00730b9a07b10ee25c71a970c9e80bdfdcc65d6f14765008465583b50a8d9278",
+    "release_sha256": "f6657b2f23df8318da0a0a38ac2db9b4a7bbf224633a7f1e33c2280875f935dd"
+  },
+  {
+    "source": "exp/Heck_Benchmark/baseline/Heck_MMHRP-GCL.ipynb",
+    "destination": "exp/Heck_Benchmark/baseline/Heck_MMHRP-GCL.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "e0758f4365b2453f284dbbfc8dcab4cc30825d70076b79aced533e130d0fec3f",
+    "release_sha256": "1d0fe4ffba65ad06c12db793ec0acbaa881f9f3c39f1d5d81fcafd4cd87c02aa"
+  },
+  {
+    "source": "exp/Heck_Benchmark/baseline/rxnfp_Heck_ANN_tp_found.ipynb",
+    "destination": "exp/Heck_Benchmark/baseline/rxnfp_Heck_ANN_tp_found.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "869f96b335ade2d780f5d955f6941d20d89c146a8bf4696f88f8abe9d50f1e4b",
+    "release_sha256": "9ba14183546b1020a781360ef164e32eabc2cc7f74c4870d3b9aa1a1fc097cd9"
+  },
+  {
+    "source": "exp/Heck_Benchmark/Heck_ANN.ipynb",
+    "destination": "exp/Heck_Benchmark/Heck_ANN.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "ceb832cc9abb11b288ba7ab13ab53dc53b8b4843b8342a2dea1904ee39b35fae",
+    "release_sha256": "4f5f7451b9d44c8d508262532f3e31cf4306b200a2c0dfed0e8c3536d21a70dd"
+  },
+  {
+    "source": "exp/Heck_Benchmark/Heck_GAT.ipynb",
+    "destination": "exp/Heck_Benchmark/Heck_GAT.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "2082ec40bcaa01de454b28eadb4ed562e68156732f74cac5325328617f2c27d0",
+    "release_sha256": "808fde167f8d268aa970bc80ac6174948325237168fb3a55ae101c2d2962dd39"
+  },
+  {
+    "source": "exp/Heck_Benchmark/Heck_ML.ipynb",
+    "destination": "exp/Heck_Benchmark/Heck_ML.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "23f2190ac4c85d07edf243db3eeed2540738d7b8cbb33fbe72123603bb657242",
+    "release_sha256": "fe9b955bd892e1d81ff9ec01d1ccdff0589cef01d1509b87f70b537d050fe8ee"
+  },
+  {
+    "source": "exp/Heck_Benchmark/Heck_MMHRP-GCL-MOE-extend.ipynb",
+    "destination": "exp/Heck_Benchmark/Heck_MMHRP-GCL-MOE-extend.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "32b0a338d9869db91ec33b51ac3ecda19122fa62c15989acbab3e4fede5f1931",
+    "release_sha256": "a1be96d78da4477381188d40d76918bf3a2cfe68894ba590c3039b6bc127d786"
+  },
+  {
+    "source": "exp/Heck_Benchmark/Heck_MMHRP-GCL-MOE.ipynb",
+    "destination": "exp/Heck_Benchmark/Heck_MMHRP-GCL-MOE.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "fd3dbe0db9cd2663fa79639359a049c0774afd57fd38f0eb1d823ab77d926176",
+    "release_sha256": "ea11447919f5806849819b2643cf07421945b155267025976e40ea47c3c790b5"
+  },
+  {
+    "source": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot-MOE.ipynb",
+    "destination": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot-MOE.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "4cb15e647ab7a72a91ffd56ad268f9334e3bcc36bf9d5f7cb9ac6ea339dec297",
+    "release_sha256": "229e15b8add4deae85b4fd12c10691c62534ca281f12f493e13d013c0e1b1ceb"
+  },
+  {
+    "source": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot-MOpE-pdall-gpu.ipynb",
+    "destination": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot-MOpE-pdall-gpu.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "bafa9928933be074246eb0214b503c3c94f10ee51d958748f7e30ec679243785",
+    "release_sha256": "dad514727d6d4d8aafedc24d12cefa8489205bff1ab73f205894c4eefe91efaa"
+  },
+  {
+    "source": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot.ipynb",
+    "destination": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "2c8c19c9f5129157fda517e423e879d5ad751d7bf5a899c8de6b4ca614b8484e",
+    "release_sha256": "43ec237e5143499f9c760c5c9f5911be7af18ac0eee0a5df8032ca5bb2f7a1fe"
+  },
+  {
+    "source": "exp/Heck_Benchmark/Heck_MMHRP-GCL.ipynb",
+    "destination": "exp/Heck_Benchmark/Heck_MMHRP-GCL.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "4d12d03823f6c8333c4604565e495bd62692e012b86cdc25a433f94781237220",
+    "release_sha256": "a49715a4be1af18a2f19b1ad19bc4999765ab7d06f3432a08cb79abeab493e92"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/.ipynb_checkpoints/64_\u9358\u71b8\u6f75-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "11c8b3b86f62cdc30bf6b7ddd5a50c439035630953106b33ddadd8a5b52a8a17"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/.ipynb_checkpoints/atom_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "03c824f3173521aa800ee80d570441dc766f6775030d15d0e1fd7139beee6146"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/.ipynb_checkpoints/attention_map-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "ad93383d0d8952e361354da15aafc921560c5e9cbb0e4ba4e0af4c310e5723e9"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/.ipynb_checkpoints/condition_heatmap-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "534948a688e07ebbc303023ada174591165f1ec9b3c06229fb4ce2c13ca82077"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/.ipynb_checkpoints/expert_usage-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "10138ad488e1e2f4648bc000e9a956330d15ff6514d87a7164f56d5ad40ce853"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-MOpE-pdall-gpu-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "c796edbda103da9c9d6b4c5b17ec506edbf569c8a5faed13724fd6a8352fee38"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-MOpE-pdall-gpu-IR_64-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "c542a9b9f488b0fffc8a0071dabfc3e8e4c7716f846c7ca0b89c60c999258921"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/.ipynb_checkpoints/Heck_MMHRP-GCL-tri-MOpE-pdall-gpu-IR_64-\u6dc7\u6fc6\u74e8\u93c8\u20ac\u6d63\u5d07\u6b91\u59af\u2033\u7037-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "ca5c3f7cf771457a51fbfdcf704d46f98cf8dc8e6b6a0beeb33b1dccd8c9b0f2"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/.ipynb_checkpoints/\u7459\uff49\u5674\u93ac\u0443\u578e\u93cb%3F0226-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "d26f5d2f456dbbf17d7c733e433e2d592bfc32e8874c7dec6a53d0a4f50bf9f5"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/.ipynb_checkpoints/\u7459\uff49\u5674\u93ac\u0443\u578e\u93cb%3Fcheckpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "68c44006c2e7875c2703e731b752c15493cac585c0127b9abb302de28f4d6be2"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/.ipynb_checkpoints/bipartite-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "0e2f6f6f05c2e1b7760e9c429a34c083bb288bb94306daa148618fdee14b236c"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/.ipynb_checkpoints/sankey_random-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "d19de174fc450b059642f96eb482630920a8be6a42f0f47b1d7d099cc268b118"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/.ipynb_checkpoints/token_dependency_graph-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "61186bf22ff8b857bd6863e59209e3d27b252061d38151a65ae8eed8c3d83f3e"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/.ipynb_checkpoints/top100_best_predictions-checkpoint.csv",
+    "status": "excluded_cache",
+    "sha256": "93f735df1cf8d318ebf2ae19703f150e5d9218733e0ec12e6b678d9d76d3350d"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/.ipynb_checkpoints/\u7459\uff49\u5674\u93ac\u0443\u578e\u93cb%3F0313-\u93c3\u7208oss-best-\u6dc7\ue1bd\ue11c\u6d5c\u5503raph\u95ae\u3125\u578e-\u93cd\u950b\u6e701452-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "459740ea624fba8316b52884feaf40069c7ff3d0f27878fb662ddad87bde4239"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/.ipynb_checkpoints/\u7459\uff49\u5674\u93ac\u0443\u578e\u93cb%3F0313-\u93c3\u7208oss-best-\u6dc7\ue1bd\ue11c\u6d5c\u5503raph\u95ae\u3125\u578e-\u93cd\u950b\u6e703116-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "e920d0e52d3b1af41471f0b8e51b1d208f0dcaebb12f069aa73f68476c705e1a"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/.ipynb_checkpoints/\u93cc\u30e7\u6e45\u93c4\ue21a\u5e2b\u93c2\u56e6\u6b22\u9428\u52eb\u6462\u6d93\u20ac\u741b%3Fcheckpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "48d9d9c94d8841d2f0944d07bbd7d9ed51030fbc6f231f265ddac577ef399da1"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/bipartite.png",
+    "destination": "exp/Heck_Benchmark/main/explain/bipartite.png",
+    "status": "copied_asset",
+    "source_sha256": "8f4e0230df158b07169bc8fc33a54e9a28b010d497fa72babf323e2955a9478f",
+    "release_sha256": "8f4e0230df158b07169bc8fc33a54e9a28b010d497fa72babf323e2955a9478f"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/explain.ipynb",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "e920d0e52d3b1af41471f0b8e51b1d208f0dcaebb12f069aa73f68476c705e1a"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/atom_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "60cce245bb5f9e187beb282557b1dd7d19d57fd3407c58d846a148092705d1e4"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/atom_importance_structure-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "a60846a7f59c9e3ef094cf61d7dbeb1143459aaa1736800285bf291775b90c79"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/attention_heatmap-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "1d37fc1bc789afdb167aa6fe431922b41fba2f2df675b8e05c4112e3108f58f7"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/condition_heatmap-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "abb2e8cbdb95ef2de86a2c5248b4ff8ae9355eda48dfbce754026c1a92ec9a50"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/expert_0_condition_heatmap-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "892459d9f7ae23fa3c6fb13ca4fa3d0def90bc44030d6079395bf73787bf52d4"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/expert_1_condition_heatmap-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "e36725d4405e6c19dcea211683b2a880136490393421534806a3bb49d0e0aa3f"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/expert_condition_heatmap-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "892459d9f7ae23fa3c6fb13ca4fa3d0def90bc44030d6079395bf73787bf52d4"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/expert_vs_temperature-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "bf55d7d2698409e774a8bd4b47796d587c95bad01a1a06cf16c57f404e22a13c"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/expert_vs_time-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "af79f9b211a60ac50330868256c4643bd1950f08138f14ca65ceccdff310af16"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/mope_modality_expert_sankey-expert2-top100-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "e50222dfa3328fe3aa9b568c5d92ba5d9683e679cc3945c84a5e8e49d32d87d3"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/mope_modality_expert_sankey-expert2-top500-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "f4f994871105a666a4f4c5fee98a26ef926a316c97f055d952c032db5961bf71"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/mope_modality_expert_sankey-expert2-trainset-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "112d26ccaf1196207529e5123301620ae9781d0532fde5d0b45cc5493777b649"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/reactant_product_importance_abs-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "2dce5c59631242c59b9a3078e94464ec702907850d9d54f68cbf87308f7dc348"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/reaction_atom_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "a60846a7f59c9e3ef094cf61d7dbeb1143459aaa1736800285bf291775b90c79"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/reaction_core_atom_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "af841bede7e513026a850b306ac8fc118d3284b85d01a2038aa6060d54c92a36"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/reaction_core_group_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "7b0d157b0859b737b34512aa94291af7d141e0a0a1e190041f1fc9242f78ec66"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/reagent_catalyst_importance_abs-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "f9a2b70178d7b7359fe59a22003520e024c17e09280ddcba300c5a2525ddd77b"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/reagent_system_atom_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "83325fec7588e0084596a7f815d6a3a9b02a699cc5163780c5d54d5d577a1bc0"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/reagent_system_group_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "f748406d957b1e11a9122af6204b151876257dde81119001d38f71145ca197d4"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/single_reaction_fragment_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "d8e0e27d7c960f4b2c8fc7d0e335d8211aff7425cd1c9ac77b90ebc812a9b020"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/single_reaction_fragment_map_\u7487\u66de\u588f\u934c\ue100\u5bf2\u9353\u4fe0ricks-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "5e01cdfa60ce578504473e3cb3a3d5c9d59b7a7ce8a4728ea8d50a8c8a06052e"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/single_reaction_fragment_map_\u9359\u5d85\u7c32\u9417\u2541\u62f0\u6d5c\u0445\u58bf \u9428\u5221ricks-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "5e01cdfa60ce578504473e3cb3a3d5c9d59b7a7ce8a4728ea8d50a8c8a06052e"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/single_reaction_group_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "34e28018c187453c828cbf4f752d55a06ade4f025256b401460d79c22f022df0"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/smiles_token_importance-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "ae6f8a3c74d312817602484feb74ea76efee915d17dc938343463d72aee157f7"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/smiles_token_importance-idx-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "3ebc01e80edd4272cf0613e93c70bac45f4c2f735b29b54e5452b213625f7338"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/.ipynb_checkpoints/smiles_token_importance\u9225\u65ba\u20ac\u650adx-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "0ecb673d70a1e4e8eb405d59cbf8b445eeb8642d3fb38e6f9a95bfb51ec29546"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/atom_importance.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/atom_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "60cce245bb5f9e187beb282557b1dd7d19d57fd3407c58d846a148092705d1e4",
+    "release_sha256": "60cce245bb5f9e187beb282557b1dd7d19d57fd3407c58d846a148092705d1e4"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/atom_importance_structure.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/atom_importance_structure.png",
+    "status": "copied_asset",
+    "source_sha256": "a60846a7f59c9e3ef094cf61d7dbeb1143459aaa1736800285bf291775b90c79",
+    "release_sha256": "a60846a7f59c9e3ef094cf61d7dbeb1143459aaa1736800285bf291775b90c79"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/attention_heatmap.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/attention_heatmap.png",
+    "status": "copied_asset",
+    "source_sha256": "1d37fc1bc789afdb167aa6fe431922b41fba2f2df675b8e05c4112e3108f58f7",
+    "release_sha256": "1d37fc1bc789afdb167aa6fe431922b41fba2f2df675b8e05c4112e3108f58f7"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/condition-heatmap/generate_condition_heatmap.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "08e1541c158825725a7ef68159b8a74316e35888f5409d3b848dbe85a1e81d38"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/condition-heatmap/results/condition_heatmap_predicted_yield_percent_no_title_1022.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/condition-heatmap/results/condition_heatmap_predicted_yield_percent_no_title_1022.png",
+    "status": "copied_asset",
+    "source_sha256": "519123d5024a759169bc2cd9e33fb1246fee244f95cb3bc310efc09e5bee2c3b",
+    "release_sha256": "519123d5024a759169bc2cd9e33fb1246fee244f95cb3bc310efc09e5bee2c3b"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/condition-heatmap/results/condition_prediction_grid.csv",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/condition-heatmap/results/condition_prediction_grid.csv",
+    "status": "copied_text",
+    "source_sha256": "8c7c74b64fded1159e0ec977eaaafed6e85fe8dfff6409392d6fb1015d3ea7c2",
+    "release_sha256": "78706304c4f1287def04d60331ece7f908d641c015f5c9dce1bdf992e8cdf0ce"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/condition-heatmap/results/metadata.json",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/condition-heatmap/results/metadata.json",
+    "status": "copied_text",
+    "source_sha256": "19d010ac5ab024dedeaea814669dc3c0599755193a835c0e43e58c21ae565d27",
+    "release_sha256": "5e3fb4894c3c0da4d447526947db6b6a1422d6dcc8327f7c03aee5151d764400"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/condition-heatmap/results/replot_condition_heatmap_axes16_ticks14_bar14_1022.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "fe628acc1b97c857f4e5d41039980ff72f34c497d319fce21e06ef40e56e146e"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/condition-heatmap/results/replot_condition_heatmap_large_axes_1022.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "dd22bb58d7b32a81ae85c56d0d1e5351499a90adfd3b946f7efb27956b52b5a3"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/condition-heatmap/results/replot_condition_heatmap_predicted_yield_percent_1022.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "fd6fe517055a17769f091dec862bdd8d329be06ab7ae54e226b35ff044f70057"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/condition-heatmap/results/replot_condition_heatmap_yield_percent_no_title_1022.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "85ea0878cc38c557968ae0a057c109ba2ed110e92ef197c5a5b3e756a0f8ceb0"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/condition_heatmap.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/condition_heatmap.png",
+    "status": "copied_asset",
+    "source_sha256": "abb2e8cbdb95ef2de86a2c5248b4ff8ae9355eda48dfbce754026c1a92ec9a50",
+    "release_sha256": "abb2e8cbdb95ef2de86a2c5248b4ff8ae9355eda48dfbce754026c1a92ec9a50"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/expert_0_condition_heatmap.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/expert_0_condition_heatmap.png",
+    "status": "copied_asset",
+    "source_sha256": "892459d9f7ae23fa3c6fb13ca4fa3d0def90bc44030d6079395bf73787bf52d4",
+    "release_sha256": "892459d9f7ae23fa3c6fb13ca4fa3d0def90bc44030d6079395bf73787bf52d4"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/expert_1_condition_heatmap.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/expert_1_condition_heatmap.png",
+    "status": "copied_asset",
+    "source_sha256": "e36725d4405e6c19dcea211683b2a880136490393421534806a3bb49d0e0aa3f",
+    "release_sha256": "e36725d4405e6c19dcea211683b2a880136490393421534806a3bb49d0e0aa3f"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/expert_condition_heatmap.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/expert_condition_heatmap.png",
+    "status": "copied_asset",
+    "source_sha256": "892459d9f7ae23fa3c6fb13ca4fa3d0def90bc44030d6079395bf73787bf52d4",
+    "release_sha256": "892459d9f7ae23fa3c6fb13ca4fa3d0def90bc44030d6079395bf73787bf52d4"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/expert_usage.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/expert_usage.png",
+    "status": "copied_asset",
+    "source_sha256": "9f0cb4856f07de2da12239c8221a105aaea434b0c0fbf88563e7aa0fa6059a22",
+    "release_sha256": "9f0cb4856f07de2da12239c8221a105aaea434b0c0fbf88563e7aa0fa6059a22"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/expert_vs_temperature.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/expert_vs_temperature.png",
+    "status": "copied_asset",
+    "source_sha256": "bf55d7d2698409e774a8bd4b47796d587c95bad01a1a06cf16c57f404e22a13c",
+    "release_sha256": "bf55d7d2698409e774a8bd4b47796d587c95bad01a1a06cf16c57f404e22a13c"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/expert_vs_time.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/expert_vs_time.png",
+    "status": "copied_asset",
+    "source_sha256": "af79f9b211a60ac50330868256c4643bd1950f08138f14ca65ceccdff310af16",
+    "release_sha256": "af79f9b211a60ac50330868256c4643bd1950f08138f14ca65ceccdff310af16"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/generate_condition_heatmap.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "08e1541c158825725a7ef68159b8a74316e35888f5409d3b848dbe85a1e81d38"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/.ipynb_checkpoints/expert_0_condition_heatmap_shared_scale-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "f8666c477f4cbe3060d8b9c9379d3e90a9c1421197bbeef63d5017cd68dc9653"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/.ipynb_checkpoints/expert_1_condition_heatmap_shared_scale-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "53b8aae90a46d309bd01549dc111c993933b8210499af82f2b197dc87809c8cf"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/.ipynb_checkpoints/expert_vs_temperature-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "18ab47ce04ab30ee366eff49394668ca45ed1df56981381bd8482e8c760b6a76"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/.ipynb_checkpoints/expert_vs_time-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "68bcf9660aff239bec0ee0c2027741d28c4a9a39cce15ea09e32bfc2ea29bda9"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/__pycache__/run_optimized_heck_heatmaps_3116.cpython-38.pyc",
+    "status": "excluded_cache",
+    "sha256": "e7f822a137af654727e9870f03fbdf8690e364294e89ef9e9ca0126dcd1b6cd0"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_0_condition_grid_shared_scale.csv",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_0_condition_grid_shared_scale.csv",
+    "status": "copied_text",
+    "source_sha256": "be411306ad78281f245458abf411400d9dfd1df4a3f242018d0eb8eee3ddeaed",
+    "release_sha256": "86234acc2cbf30d18497c96b205b59bdebbb5d3b4dd663592b731fd67856dfc9"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_0_condition_heatmap_shared_scale.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_0_condition_heatmap_shared_scale.png",
+    "status": "copied_asset",
+    "source_sha256": "f8666c477f4cbe3060d8b9c9379d3e90a9c1421197bbeef63d5017cd68dc9653",
+    "release_sha256": "f8666c477f4cbe3060d8b9c9379d3e90a9c1421197bbeef63d5017cd68dc9653"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_1_condition_grid_shared_scale.csv",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_1_condition_grid_shared_scale.csv",
+    "status": "copied_text",
+    "source_sha256": "8d6b0d8281914c86dea14164131dc558386e45c4e25eaa4b10f409dad8a64e3b",
+    "release_sha256": "3703f6ff36f879164a5bbb88c9d3f5e11c4db6b211b8938bc14697a8f8952f70"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_1_condition_heatmap_shared_scale.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_1_condition_heatmap_shared_scale.png",
+    "status": "copied_asset",
+    "source_sha256": "53b8aae90a46d309bd01549dc111c993933b8210499af82f2b197dc87809c8cf",
+    "release_sha256": "53b8aae90a46d309bd01549dc111c993933b8210499af82f2b197dc87809c8cf"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_condition_heatmap_shared_scale_metadata.json",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_condition_heatmap_shared_scale_metadata.json",
+    "status": "copied_text",
+    "source_sha256": "4d16ea533b411a5ecfb79fdf4998e44a1710ff6ce4cd3ae66d0b49a75503f7b1",
+    "release_sha256": "51b2b0bc6f906828207f8cd54f3fb793130cb1badcf6f3319a077c4975e4132e"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_vs_temperature.csv",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_vs_temperature.csv",
+    "status": "copied_text",
+    "source_sha256": "5b7d167adc1a5ac59e3cbeece9242dc9d9f8ccb210a63923f61a38859cabf80b",
+    "release_sha256": "10a42bd4bc2a584218260ff5fe5b3ec6c01eb68def22793bf4847d2b704f5783"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_vs_temperature_legend_center_left_1016.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_vs_temperature_legend_center_left_1016.png",
+    "status": "copied_asset",
+    "source_sha256": "7d76b954b1b976cc7a0afdbfc8e83dbafff0f5a9f43b2e24204ace58213a1218",
+    "release_sha256": "7d76b954b1b976cc7a0afdbfc8e83dbafff0f5a9f43b2e24204ace58213a1218"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_vs_temperature_metadata.json",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_vs_temperature_metadata.json",
+    "status": "copied_text",
+    "source_sha256": "cbf96e440ca296aa3d1d33bc62233a5be6c312616d921f2d4b39da1f15fae7a9",
+    "release_sha256": "cbb629c25c9b2660f321d385dd6e13eecb63995d10b1ee03bb46d9e81dd2bd8c"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_vs_time.csv",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_vs_time.csv",
+    "status": "copied_text",
+    "source_sha256": "d0ac90ce408c2fa18c05d0de1deebe04c481e016e8f379235c6ec825e85566b2",
+    "release_sha256": "7e644d6e60a2562933e7d92e662640a656ebbaec3687cd58e5704667acf60653"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_vs_time_legend_center_left_1016.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_vs_time_legend_center_left_1016.png",
+    "status": "copied_asset",
+    "source_sha256": "5cc7b39329b830e0ca78d792e67a04565d96c1f56fe050b54491f6513b018fd7",
+    "release_sha256": "5cc7b39329b830e0ca78d792e67a04565d96c1f56fe050b54491f6513b018fd7"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_vs_time_metadata.json",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/heatmaps/expert_vs_time_metadata.json",
+    "status": "copied_text",
+    "source_sha256": "8db35aac908138361245c14c0ad8e13221eaab16255728ada3ae2bbe6dca75ad",
+    "release_sha256": "670d754cc0596b9544b3a3526df00b5a1b69e5cd4f642e48a1a5211185f1adca"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/generate_expert_vs_temperature.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "e567a0637855cf8ba67c7012cef6515fb28b8f56b3bf51f9a4e98abf47c5b361"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/generate_expert_vs_temperature_from_diagnostics.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "34db9a5385db0e56c07313f31dfadfa06d15fc2b2908bb3687c7b550b2ce4347"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/generate_expert_vs_temperature_legend_center_left_1016.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "e0a14ff120a30fdffe2ceda3590eab327cee03f5fef2b30e69fd2a67ca56d490"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/generate_expert_vs_time_from_diagnostics.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "596925c4aa9285b88d4b098e82a90f0bbc41ced0f7372e5bd7c2311d4d282c29"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/generate_expert_vs_time_legend_center_left_1016.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "fbe620d28893e23dfcd3a21886ef482507a5b7f7f3955d26560591b79bda5af0"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/README.md",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/heatmaps/README.md",
+    "status": "copied_text",
+    "source_sha256": "80f12f5944277f725afecb768191e04c125248fbcfc89bc4c4dfe3389afd1ed5",
+    "release_sha256": "f34a0ac1f0d346fa65a62aff67473b3a1e81b791234f6616699c6fc384a0c335"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/heatmaps/run_optimized_heck_heatmaps_3116.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "7ded33831ee378ed1e918e4964bc9d8a52002b63e76e98293006d52432fa9b3d"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/mope_modality_expert_sankey-expert2-top100.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/mope_modality_expert_sankey-expert2-top100.png",
+    "status": "copied_asset",
+    "source_sha256": "e50222dfa3328fe3aa9b568c5d92ba5d9683e679cc3945c84a5e8e49d32d87d3",
+    "release_sha256": "e50222dfa3328fe3aa9b568c5d92ba5d9683e679cc3945c84a5e8e49d32d87d3"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/mope_modality_expert_sankey-expert2-top500.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/mope_modality_expert_sankey-expert2-top500.png",
+    "status": "copied_asset",
+    "source_sha256": "f4f994871105a666a4f4c5fee98a26ef926a316c97f055d952c032db5961bf71",
+    "release_sha256": "f4f994871105a666a4f4c5fee98a26ef926a316c97f055d952c032db5961bf71"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/mope_modality_expert_sankey-expert2-trainset.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/mope_modality_expert_sankey-expert2-trainset.png",
+    "status": "copied_asset",
+    "source_sha256": "112d26ccaf1196207529e5123301620ae9781d0532fde5d0b45cc5493777b649",
+    "release_sha256": "112d26ccaf1196207529e5123301620ae9781d0532fde5d0b45cc5493777b649"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/reactant_product_importance_abs.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/reactant_product_importance_abs.png",
+    "status": "copied_asset",
+    "source_sha256": "2dce5c59631242c59b9a3078e94464ec702907850d9d54f68cbf87308f7dc348",
+    "release_sha256": "2dce5c59631242c59b9a3078e94464ec702907850d9d54f68cbf87308f7dc348"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/reaction_atom_importance.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/reaction_atom_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "a60846a7f59c9e3ef094cf61d7dbeb1143459aaa1736800285bf291775b90c79",
+    "release_sha256": "a60846a7f59c9e3ef094cf61d7dbeb1143459aaa1736800285bf291775b90c79"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/reaction_core_atom_importance.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/reaction_core_atom_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "af841bede7e513026a850b306ac8fc118d3284b85d01a2038aa6060d54c92a36",
+    "release_sha256": "af841bede7e513026a850b306ac8fc118d3284b85d01a2038aa6060d54c92a36"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/reaction_core_group_importance.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/reaction_core_group_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "7b0d157b0859b737b34512aa94291af7d141e0a0a1e190041f1fc9242f78ec66",
+    "release_sha256": "7b0d157b0859b737b34512aa94291af7d141e0a0a1e190041f1fc9242f78ec66"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/reagent_catalyst_importance_abs.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/reagent_catalyst_importance_abs.png",
+    "status": "copied_asset",
+    "source_sha256": "f9a2b70178d7b7359fe59a22003520e024c17e09280ddcba300c5a2525ddd77b",
+    "release_sha256": "f9a2b70178d7b7359fe59a22003520e024c17e09280ddcba300c5a2525ddd77b"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/reagent_system_atom_importance.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/reagent_system_atom_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "83325fec7588e0084596a7f815d6a3a9b02a699cc5163780c5d54d5d577a1bc0",
+    "release_sha256": "83325fec7588e0084596a7f815d6a3a9b02a699cc5163780c5d54d5d577a1bc0"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/reagent_system_group_importance.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/reagent_system_group_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "f748406d957b1e11a9122af6204b151876257dde81119001d38f71145ca197d4",
+    "release_sha256": "f748406d957b1e11a9122af6204b151876257dde81119001d38f71145ca197d4"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/fonts-spacing.conf",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/Sankey/fonts-spacing.conf",
+    "status": "copied_text",
+    "source_sha256": "5ce832e81b139a77e2f95b0353244cee53155dd6b6f0163aad6fb62b821a0778",
+    "release_sha256": "106f6726cb8ccf8a72f9ebe45ff18db4887189a2bbc65138321839fa7249a8f4"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/heck_aho_settings_experts_up_1926/.ipynb_checkpoints/generate_heck_sankey_experts_up_010_050-checkpoint.py",
+    "status": "excluded_cache",
+    "sha256": "7e1fb69e278fca56d23b630920a24144ff502d5370a40c14f1d09accff91071c"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/heck_aho_settings_experts_up_1926/.ipynb_checkpoints/Heck_sankey_0925_heck_aho_settings_experts_up_010_050-checkpoint.png",
+    "status": "excluded_cache",
+    "sha256": "45e16794aa5af89175aa4641f08b0f3824f9c94acbc0d33f3b643143ab1f2299"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/heck_aho_settings_experts_up_1926/generate_heck_sankey_experts_up_010_050.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "7e1fb69e278fca56d23b630920a24144ff502d5370a40c14f1d09accff91071c"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/heck_aho_settings_experts_up_1926/Heck_sankey_0925_heck_aho_settings_experts_up_010_050.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/Sankey/heck_aho_settings_experts_up_1926/Heck_sankey_0925_heck_aho_settings_experts_up_010_050.png",
+    "status": "copied_asset",
+    "source_sha256": "45e16794aa5af89175aa4641f08b0f3824f9c94acbc0d33f3b643143ab1f2299",
+    "release_sha256": "45e16794aa5af89175aa4641f08b0f3824f9c94acbc0d33f3b643143ab1f2299"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/heck_aho_settings_experts_up_1926/Heck_sankey_0925_heck_aho_settings_experts_up_010_050_matrix.csv",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/Sankey/heck_aho_settings_experts_up_1926/Heck_sankey_0925_heck_aho_settings_experts_up_010_050_matrix.csv",
+    "status": "copied_text",
+    "source_sha256": "f9bd705a26c8427317f32a508d24eff4d8f6b87c4eb4018c47f3a8ab162432a9",
+    "release_sha256": "82dd6eb31eff2e542df5c991a5850ae8c1aaefb0a8a241985044d3ad9ef563fe"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/heck_aho_settings_experts_up_1926/Heck_sankey_0925_heck_aho_settings_experts_up_010_050_parameters.txt",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/Sankey/heck_aho_settings_experts_up_1926/Heck_sankey_0925_heck_aho_settings_experts_up_010_050_parameters.txt",
+    "status": "copied_text",
+    "source_sha256": "983be1ba5dd4d80f745f2b71a582d8849efc93cf5c1f0fbca9ea81ab15f4365f",
+    "release_sha256": "4c88537c67da4c9c9be053d84122852b55e4b5faa718d1a24a4b98f237b299bc"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/heck_aho_settings_experts_up_1926/README.md",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/Sankey/heck_aho_settings_experts_up_1926/README.md",
+    "status": "copied_text",
+    "source_sha256": "12f0311689869590b9c7d835f2ce2ca468cd1e7f404518d638ee377e1a898117",
+    "release_sha256": "f34a0ac1f0d346fa65a62aff67473b3a1e81b791234f6616699c6fc384a0c335"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/make_sankey_spacing_0924.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "3b1e8f98ed8c058f705c1e5a3aaac58c4a98c31743ec869258675987b4095c71"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/node_positions_0924.csv",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/Sankey/node_positions_0924.csv",
+    "status": "copied_text",
+    "source_sha256": "70c46e21e0c736eb7a3895aa51e51ad0671eda1d92edd251f52997ce252ddc73",
+    "release_sha256": "ba14f0763a7b32dad3f4ff66ad6aae9222ad32ae7f89e22dca324e267cc9d852"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/README.md",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/Sankey/README.md",
+    "status": "copied_text",
+    "source_sha256": "b0ac977a9543bb728be0504cd2c5c1777b3e72d12ecc72e83db197558c63517e",
+    "release_sha256": "f34a0ac1f0d346fa65a62aff67473b3a1e81b791234f6616699c6fc384a0c335"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/\u52a8\u6001Sankey\u56fe/extract_heck_directional_raw_0925.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "5a7cc3df625be86c8e62b685d2fb21bdc6673ba9237af6af7b3c5fd468fcef30"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/\u52a8\u6001Sankey\u56fe/generate_dynamic_sankey_v6.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "ce54baa8c76b33afdb5979fd1ce57fe5e0929d08e15695e4f22e01556cdb8938"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/\u52a8\u6001Sankey\u56fe/generate_sample_count_dynamic_sankey_0925.py",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "6e5b47dbaf3224bbadbcd71b8ee32777637fc15d1e854d193da159485371de2b"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/\u52a8\u6001Sankey\u56fe/Heck_directional_routing_raw_5000_0925.npz",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/Sankey/dynamic_sankey/Heck_directional_routing_raw_5000_0925.npz",
+    "status": "copied_asset",
+    "source_sha256": "a29dc96c82fbac8d3dbbd2c64a4ed8949ab27681b6bbdef4ff61249dad44e7eb",
+    "release_sha256": "a29dc96c82fbac8d3dbbd2c64a4ed8949ab27681b6bbdef4ff61249dad44e7eb"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/\u52a8\u6001Sankey\u56fe/Heck_sankey_dynamic_by_sample_count_0925.html",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/Sankey/dynamic_sankey/Heck_sankey_dynamic_by_sample_count_0925.html",
+    "status": "copied_asset",
+    "source_sha256": "19f26e19a9b463b63f36d828ae103219d018fe5d6358ed53dd0563b01f1f7e05",
+    "release_sha256": "a41b92311203211b4f1db0170fd992f5a0465b27951249b3eef883219a6a9d74"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/\u52a8\u6001Sankey\u56fe/Heck_sankey_dynamic_modality_focus_v6.html",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/Sankey/dynamic_sankey/Heck_sankey_dynamic_modality_focus_v6.html",
+    "status": "copied_asset",
+    "source_sha256": "13e8b069bcb991d6a3e01a4e4ca6dd0b0c644549d28557c64f774c6d342d3bdf",
+    "release_sha256": "c71d33af4f656cc806c5c06367f34c9b1a71312c1e88394eb9e1e9a0dad27832"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/Sankey/\u52a8\u6001Sankey\u56fe/README.md",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/Sankey/dynamic_sankey/README.md",
+    "status": "copied_text",
+    "source_sha256": "b89a612866338f766138942d0fcfe3ee3b7eca0765098f4755ac63ee3d04de6b",
+    "release_sha256": "f34a0ac1f0d346fa65a62aff67473b3a1e81b791234f6616699c6fc384a0c335"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/single_reaction_fragment_importance.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/single_reaction_fragment_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "d8e0e27d7c960f4b2c8fc7d0e335d8211aff7425cd1c9ac77b90ebc812a9b020",
+    "release_sha256": "d8e0e27d7c960f4b2c8fc7d0e335d8211aff7425cd1c9ac77b90ebc812a9b020"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/single_reaction_fragment_map_\u53cd\u5e94\u7269\u548c\u4ea7\u7269ricks.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/single_reaction_fragment_map_reactants_products_brics.png",
+    "status": "copied_asset",
+    "source_sha256": "f7c1d026cf8b2d09e66b916d8f42db96e4344abdadf9823830b5bca0fbbed134",
+    "release_sha256": "f7c1d026cf8b2d09e66b916d8f42db96e4344abdadf9823830b5bca0fbbed134"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/single_reaction_fragment_map_\u8bd5\u5242\u50ac\u5316\u5242ricks.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/single_reaction_fragment_map_reagents_catalysts_brics.png",
+    "status": "copied_asset",
+    "source_sha256": "5e01cdfa60ce578504473e3cb3a3d5c9d59b7a7ce8a4728ea8d50a8c8a06052e",
+    "release_sha256": "5e01cdfa60ce578504473e3cb3a3d5c9d59b7a7ce8a4728ea8d50a8c8a06052e"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/single_reaction_group_importance.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/single_reaction_group_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "34e28018c187453c828cbf4f752d55a06ade4f025256b401460d79c22f022df0",
+    "release_sha256": "34e28018c187453c828cbf4f752d55a06ade4f025256b401460d79c22f022df0"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/smiles_token_importance-idx.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/smiles_token_importance-idx.png",
+    "status": "copied_asset",
+    "source_sha256": "2337a074b2cb29a92cb82cf813d4990546ae7dd331ed7516755e34ecaaba7498",
+    "release_sha256": "2337a074b2cb29a92cb82cf813d4990546ae7dd331ed7516755e34ecaaba7498"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/smiles_token_importance.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/smiles_token_importance.png",
+    "status": "copied_asset",
+    "source_sha256": "ae6f8a3c74d312817602484feb74ea76efee915d17dc938343463d72aee157f7",
+    "release_sha256": "ae6f8a3c74d312817602484feb74ea76efee915d17dc938343463d72aee157f7"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/sample/smiles_token_importance\u9225\u65ba\u20ac\u650adx.png",
+    "destination": "exp/Heck_Benchmark/main/explain/sample/smiles_token_importance_token_positions.png",
+    "status": "copied_asset",
+    "source_sha256": "0ecb673d70a1e4e8eb405d59cbf8b445eeb8642d3fb38e6f9a95bfb51ec29546",
+    "release_sha256": "0ecb673d70a1e4e8eb405d59cbf8b445eeb8642d3fb38e6f9a95bfb51ec29546"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/token_dependency_graph.png",
+    "destination": "exp/Heck_Benchmark/main/explain/token_dependency_graph.png",
+    "status": "copied_asset",
+    "source_sha256": "61186bf22ff8b857bd6863e59209e3d27b252061d38151a65ae8eed8c3d83f3e",
+    "release_sha256": "61186bf22ff8b857bd6863e59209e3d27b252061d38151a65ae8eed8c3d83f3e"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/top100_best_predictions.csv",
+    "destination": "exp/Heck_Benchmark/main/explain/top100_best_predictions.csv",
+    "status": "copied_text",
+    "source_sha256": "93f735df1cf8d318ebf2ae19703f150e5d9218733e0ec12e6b678d9d76d3350d",
+    "release_sha256": "8eb53f433a1339145834c3a49c879e548c0c2ec2dc7ca73600a56beda1bbeaa0"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain/top5000_best_predictions.csv",
+    "destination": "exp/Heck_Benchmark/main/explain/top5000_best_predictions.csv",
+    "status": "copied_text",
+    "source_sha256": "7ea057d196f9ea8c33c398f01a6c66620f4603ae6f8842ffe3aed654d6fb1912",
+    "release_sha256": "5fc6f2f24e656a3486dba172fc3789978a98d334011994bab3c05551af011385"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/explain.ipynb",
+    "status": "consolidated_into_Explain-1023",
+    "sha256": "d26f5d2f456dbbf17d7c733e433e2d592bfc32e8874c7dec6a53d0a4f50bf9f5"
+  },
+  {
+    "source": "exp/Heck_Benchmark/main/Heck_MMHRP-GCL-tri-MOpE-pdall-gpu-IR_64.ipynb",
+    "destination": "exp/Heck_Benchmark/main/Heck_MMHRP-GCL-tri-MOpE-pdall-gpu-IR_64.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "c542a9b9f488b0fffc8a0071dabfc3e8e4c7716f846c7ca0b89c60c999258921",
+    "release_sha256": "c7beb39ad817dfcd59252712b598f77436f974489775d2fdfbe820b0f4e259c1"
+  },
+  {
+    "source": "exp/Heck_JCP/.ipynb_checkpoints/Heck_JCP_MMHRP-GCL-checkpoint.ipynb",
+    "status": "excluded_cache",
+    "sha256": "f362e4f423d1fdde738fbc3c0c493ccf697f9a5b1fe1faa2d201ce4ab2e6161f"
+  },
+  {
+    "source": "exp/Heck_JCP/Heck_JCP_ANN.ipynb",
+    "destination": "exp/Heck_JCP/Heck_JCP_ANN.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "157dfa3e991bb859a3a8e0411d8d885906bc2301e18d040bafbb92e143625c68",
+    "release_sha256": "bf16edd26ccf6a337c35d1e2653ddff18ec90446e76bd47a93882f3284f28594"
+  },
+  {
+    "source": "exp/Heck_JCP/Heck_JCP_Benchmark.ipynb",
+    "destination": "exp/Heck_JCP/Heck_JCP_Benchmark.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "4e1e6a2c58c375db16d3a5403a6c7cdc3b319e7c8a38793e4a672d90ea4d09d2",
+    "release_sha256": "5e85ebf1e81f12daf996547acc2909361f4ee28ba9eed6b29add7792d0f09dd3"
+  },
+  {
+    "source": "exp/Heck_JCP/Heck_JCP_GAT.ipynb",
+    "destination": "exp/Heck_JCP/Heck_JCP_GAT.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "a78301baf6347dc31b2991c1b813c8863d2d9667fbe4e22d341afe56805da3a6",
+    "release_sha256": "37a3287294174b08a2a3b38a1b281ed155dc73bdf853dd27b0e51920a53c5b6e"
+  },
+  {
+    "source": "exp/Heck_JCP/Heck_JCP_ML.ipynb",
+    "destination": "exp/Heck_JCP/Heck_JCP_ML.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "cfd53441ae50d1605b811af0ec1c908688dcfb8dfeac0822a9a63362d602d7e6",
+    "release_sha256": "65268548056f253f297c538ebdc7b39501f0c9ed9de5d81f8f3a233699b6340b"
+  },
+  {
+    "source": "exp/Heck_JCP/Heck_JCP_MMHRP-GCL.ipynb",
+    "destination": "exp/Heck_JCP/Heck_JCP_MMHRP-GCL.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "f362e4f423d1fdde738fbc3c0c493ccf697f9a5b1fe1faa2d201ce4ab2e6161f",
+    "release_sha256": "4efdbff1d5a001cef1b097d81b50c5323042097c2e35077bc5655a68f14d1ff2"
+  },
+  {
+    "source": "exp/Heck_Other/Ablation.ipynb",
+    "destination": "exp/Heck_Other/Ablation.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "5f80b3ca36e024994e9ad8c40270b6e33ff1d3d20b3f8e2499e41ebb08d54376",
+    "release_sha256": "4bce12fa494c978c45b07d7413195cb0d930dd4a8739582e144f51cedb2c55ee"
+  },
+  {
+    "source": "exp/Heck_Other/FDS.ipynb",
+    "destination": "exp/Heck_Other/FDS.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "e37e1c22ad113353a12f0cc2888dff168cae5ed5d20e0bb2af461b31b92ab78e",
+    "release_sha256": "48847d8bbad3502bea17650a6f11fe859908efe57b1e9d108997aa0ead803821"
+  },
+  {
+    "source": "exp/Heck_Other/ShotErrorPlot.ipynb",
+    "destination": "exp/Heck_Other/ShotErrorPlot.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "98c9371e4a60e4ea0929bb6f3dde02c451f92b16e0ec77fe2ad926f4ac6c399a",
+    "release_sha256": "2c77a7cc62dfd86e40194e72428ac57b44d331a40c2c03d15d5491c51dd7d434"
+  },
+  {
+    "source": "exp/Heck_Other/SSTS.ipynb",
+    "destination": "exp/Heck_Other/SSTS.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "8f1e5e97c8bca29a01ab16f8c6ca4c34251ee38374fd21d838ab7de59b13fd1d",
+    "release_sha256": "def51df85a277f471d9f52ea32a3e58ab99f9003bef84039b11fef67a0a4d263"
+  },
+  {
+    "source": "exp/Heck_Other/Subset_Benchmark.ipynb",
+    "destination": "exp/Heck_Other/Subset_Benchmark.ipynb",
+    "status": "translated_and_cleared_notebook",
+    "source_sha256": "9948f3a200c5c7632fa31572f100a570b3dd00aa93165d9f69ad85f52b26079c",
+    "release_sha256": "417ff1319907734eeaf4abcd30a52d676d63da7fe062cb84539975c4e786cca2"
+  },
+  {
+    "source": "models/.ipynb_checkpoints/DeepLearnModel-checkpoint.py",
+    "status": "excluded_cache",
+    "sha256": "7844d52ca55befa59e6c8e73cbec8614d38f45a3d3b0aa9804fe405d2a7d8b01"
+  },
+  {
+    "source": "models/.ipynb_checkpoints/DeepLearnModel_09_origin-checkpoint.py",
+    "status": "excluded_cache",
+    "sha256": "c5ee489f1096cc426d539fc81c115522012ddb1f5e70df48c63b4097957d0e93"
+  },
+  {
+    "source": "models/.ipynb_checkpoints/smi2vec-checkpoint.py",
+    "status": "excluded_cache",
+    "sha256": "e136fbf711b6428f6e6879d0c4c8fd54e7aac774912e67c8719765e8bc2038f0"
+  },
+  {
+    "source": "models/__init__.py",
+    "destination": "models/__init__.py",
+    "status": "copied_text",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "models/__pycache__/__init__.cpython-38.pyc",
+    "status": "excluded_cache",
+    "sha256": "b05f3dc8a483013139752e3061d079b75ba4050fc81ec69eacd65b00fdd6c6e1"
+  },
+  {
+    "source": "models/__pycache__/DeepLearnModel.cpython-38.pyc",
+    "status": "excluded_cache",
+    "sha256": "5f939d43864d50625c7fa19972b38b52b52a8125c5e0a41fe7f8785a270e88eb"
+  },
+  {
+    "source": "models/__pycache__/fds.cpython-38.pyc",
+    "status": "excluded_cache",
+    "sha256": "b2c0bd183299801e523f67ce234d035f8d9c8e6420dcc9727ccadc012b775fbe"
+  },
+  {
+    "source": "models/AHO_vocab.txt",
+    "destination": "models/AHO_vocab.txt",
+    "status": "copied_text",
+    "source_sha256": "274409b82560cd97c87946925b0f4eafd5c767f127473c6697b069ffe5644f88",
+    "release_sha256": "fce51187e88cc8cce838d1c319419d50967e039da48d454998e85cb6d5dc980e"
+  },
+  {
+    "source": "models/DeepLearnModel.py",
+    "destination": "models/DeepLearnModel.py",
+    "status": "translated_text",
+    "source_sha256": "7844d52ca55befa59e6c8e73cbec8614d38f45a3d3b0aa9804fe405d2a7d8b01",
+    "release_sha256": "e8b3640fcc98d7eb6620475138dd5ef5d39acafa7141f3d159275fb6c21a3df7"
+  },
+  {
+    "source": "models/DeepLearnModel_09_origin.py",
+    "destination": "models/DeepLearnModel_09_origin.py",
+    "status": "translated_text",
+    "source_sha256": "c5ee489f1096cc426d539fc81c115522012ddb1f5e70df48c63b4097957d0e93",
+    "release_sha256": "495f9126da6294ac6bf56224fe33ae7cf1712220aef938cefacfff23ce673b57"
+  },
+  {
+    "source": "models/fds.py",
+    "destination": "models/fds.py",
+    "status": "copied_text",
+    "source_sha256": "e02fcac2ceb9bf0f6b172519d45d472683082f16c4203462dd68eca60db63a6c",
+    "release_sha256": "2cf450e86a439dae09888a68608e767b26fb131baffe3a8911da0983e41749a1"
+  },
+  {
+    "source": "models/HeckLit_vocab.txt",
+    "destination": "models/HeckLit_vocab.txt",
+    "status": "copied_text",
+    "source_sha256": "84fb638f7867947b9aff4eee27b9ebd1eef26675f0263b2735242d7a470dd8f0",
+    "release_sha256": "9bca4337903f45e6f1e82c18bf5c284587c835d35ffd9a839d8c5d4250051447"
+  },
+  {
+    "source": "models/JCP_vocab.txt",
+    "destination": "models/JCP_vocab.txt",
+    "status": "copied_text",
+    "source_sha256": "31612117c5f5aa2416ce78ebcaba3fcf5f601c8d5297b7f40d96af9c918a3baf",
+    "release_sha256": "271a6c00bc25066fde9d0f2704ea580ebb98c35c5b6c8d27ff4f7c5a33fba100"
+  },
+  {
+    "source": "models/smi2vec.py",
+    "destination": "models/smi2vec.py",
+    "status": "copied_text",
+    "source_sha256": "e136fbf711b6428f6e6879d0c4c8fd54e7aac774912e67c8719765e8bc2038f0",
+    "release_sha256": "4506c3704222cbadaaad17417eaad57fd4a9b3f49c031ae426aca93e73a9a60d"
+  },
+  {
+    "source": "pkgs.txt",
+    "destination": "pkgs.txt",
+    "status": "copied_text",
+    "source_sha256": "a7aae084d40c4d466dbb6ae1a9dc72ca3c7e887b261c11cb5d6dbdcb6dc47299",
+    "release_sha256": "e84840bafd495f0a6a99feff1bf3dc287ae9873816e8e1a4bf44e74bbe01cc9f"
+  },
+  {
+    "source": "README.md",
+    "destination": "README.md",
+    "status": "replaced_with_current_project_documentation",
+    "source_sha256": "ad1d6d6b4278d4489ba25147eeecd96e584b9683fa796319fbbe5230504b09cd",
+    "release_sha256": "2d5ddc6bff655c099fcb6e9a3448cc1c469dba0e9e3073be1b425ad7de208f8a"
+  },
+  {
+    "source": "utils/.ipynb_checkpoints/dataset_analysis-checkpoint.py",
+    "status": "excluded_cache",
+    "sha256": "96192fa89eb795c494f01b447c7c01eb93ed1722ca2d281ef6dc1466ea2b2de0"
+  },
+  {
+    "source": "utils/.ipynb_checkpoints/molecule-checkpoint.py",
+    "status": "excluded_cache",
+    "sha256": "9613e0932f5c5fa9cf27f8e06ee81aa46ef60126ca33754ecb6e0f1cada28745"
+  },
+  {
+    "source": "utils/.ipynb_checkpoints/rxn-checkpoint.py",
+    "status": "excluded_cache",
+    "sha256": "33bbeb3347c09b5be1d4f3c6a68cc3c8654aea390d75319389a3b924439a5af8"
+  },
+  {
+    "source": "utils/__init__.py",
+    "destination": "utils/__init__.py",
+    "status": "copied_text",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "utils/__pycache__/__init__.cpython-38.pyc",
+    "status": "excluded_cache",
+    "sha256": "ea763abe741d738d9a5f09f5b4480747abb4831841674573f659b486fd444402"
+  },
+  {
+    "source": "utils/__pycache__/dataset_analysis.cpython-38.pyc",
+    "status": "excluded_cache",
+    "sha256": "7cf6268e887f75b0659eb75197df31801dcddca42b84bce53e0d88aa3301cd91"
+  },
+  {
+    "source": "utils/__pycache__/molecule.cpython-38.pyc",
+    "status": "excluded_cache",
+    "sha256": "70bf5841db72a54ef910a6939ad91248e93f2b655f4e33067a3c726c80bdea2d"
+  },
+  {
+    "source": "utils/__pycache__/rxn.cpython-38.pyc",
+    "status": "excluded_cache",
+    "sha256": "33a2980d9b66dbebec4d5eb14671edd4a78cb285c6830f253ff8c8be02ee6787"
+  },
+  {
+    "source": "utils/dataset_analysis.py",
+    "destination": "utils/dataset_analysis.py",
+    "status": "copied_text",
+    "source_sha256": "96192fa89eb795c494f01b447c7c01eb93ed1722ca2d281ef6dc1466ea2b2de0",
+    "release_sha256": "9a122a3c893d1cd6c1562dad6b0c5470114ede8ded82eafa4c9115a435ab2e06"
+  },
+  {
+    "source": "utils/geckodriver.exe",
+    "destination": "utils/geckodriver.exe",
+    "status": "copied_asset",
+    "source_sha256": "84b42a989d543b3b18158f0b404f851f929ee595ae1c4283d2d98a978882b096",
+    "release_sha256": "84b42a989d543b3b18158f0b404f851f929ee595ae1c4283d2d98a978882b096"
+  },
+  {
+    "source": "utils/molecule.py",
+    "destination": "utils/molecule.py",
+    "status": "copied_text",
+    "source_sha256": "9613e0932f5c5fa9cf27f8e06ee81aa46ef60126ca33754ecb6e0f1cada28745",
+    "release_sha256": "4da36b93347701c464e0eb2811ec42a24fa280a525786c108a3d3d36ef4c9dce"
+  },
+  {
+    "source": "utils/rxn.py",
+    "destination": "utils/rxn.py",
+    "status": "translated_text",
+    "source_sha256": "33bbeb3347c09b5be1d4f3c6a68cc3c8654aea390d75319389a3b924439a5af8",
+    "release_sha256": "a22c6e193da02fd1ab83315c2c1d53678df38f9a873ff43053fa841c25b9909a"
+  },
+  {
+    "source": "utils/solvent polarity index.txt",
+    "destination": "utils/solvent polarity index.txt",
+    "status": "copied_text",
+    "source_sha256": "21826eaf2adf43d9906ce3ddd2db2b8685b85024e48c76c2ccfec7d1fb1d31f8",
+    "release_sha256": "d63466bdd5388a4b5295788d223c9776c323cccb06dc3a378a83f37dcf54ce6f"
+  }
+]

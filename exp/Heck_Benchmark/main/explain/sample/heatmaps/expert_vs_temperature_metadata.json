@@ -1,0 +1,72 @@
+{
+  "data": "/root/HeckLit-Code-main/data/Heck/Heck_data_clean.xlsx",
+  "diagnostics": "/root/HeckLit-Code-main/exp/Heck_Benchmark/main/explain/sankey-router-analysis-fixed-3116/sample_router_diagnostics.csv",
+  "random_state": 5,
+  "number_of_samples": 5000,
+  "bins": 6,
+  "temperature_range": [
+    20.0,
+    220.0
+  ],
+  "bin_edges": [
+    20.0,
+    53.333333333333336,
+    86.66666666666667,
+    120.0,
+    153.33333333333334,
+    186.66666666666669,
+    220.0
+  ],
+  "temperature_coordinates": [
+    20.0,
+    53.333333333333336,
+    86.66666666666667,
+    120.0,
+    153.33333333333334,
+    186.66666666666669
+  ],
+  "bin_sample_counts": [
+    405,
+    1048,
+    2050,
+    1386,
+    98,
+    12
+  ],
+  "average_weights": [
+    [
+      0.5794003958271607,
+      0.42059960518518524
+    ],
+    [
+      0.5289693937881683,
+      0.4710306049809158
+    ],
+    [
+      0.508534696590244,
+      0.4914653021658538
+    ],
+    [
+      0.47167679129148643,
+      0.5283232103030308
+    ],
+    [
+      0.4616227762244898,
+      0.5383772179591838
+    ],
+    [
+      0.3751942358333334,
+      0.6248057725000001
+    ]
+  ],
+  "figure_size_inches": [
+    6,
+    4
+  ],
+  "dpi": 300,
+  "expected_pixel_size": [
+    1800,
+    1200
+  ],
+  "note": "Weights are from the existing verified 5,000-sample router diagnostics."
+}

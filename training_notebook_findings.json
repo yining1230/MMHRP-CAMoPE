@@ -1,0 +1,298 @@
+[
+  {
+    "path": "exp/AHO/AHO_MMHRP-GCL-tri-mope.ipynb",
+    "issues": [
+      "Best epoch selected using test R2",
+      "AHO ddG plotting is multiplied by 100; inspect legacy axis labels and scale"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/AHO/AHO_MMHRP-GCL.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2",
+      "AHO ddG plotting is multiplied by 100; inspect legacy axis labels and scale"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/AHO/ablation/AHO_MMHRP_GCL_NoText_GraphMain_MoPE.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Best epoch selected using test R2",
+      "AHO ddG plotting is multiplied by 100; inspect legacy axis labels and scale"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/AHO/ablation/AHO_MMHRP_GCL_tri_MoPE_NoCond_pdall.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Best epoch selected using test R2",
+      "AHO ddG plotting is multiplied by 100; inspect legacy axis labels and scale"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/AHO/ablation/AHO_MMHRP_GCL_tri_NoMoPE_pdall.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Best epoch selected using test R2",
+      "AHO ddG plotting is multiplied by 100; inspect legacy axis labels and scale"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/AHO/ablation/AHO_MMHRP_NoGraph_TextMain_MoPE.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Best epoch selected using test R2",
+      "AHO ddG plotting is multiplied by 100; inspect legacy axis labels and scale"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/AHO/baseline/AHO_MMHRP-GCL-tri.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2",
+      "AHO ddG plotting is multiplied by 100; inspect legacy axis labels and scale"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/AHO/baseline/AHO_MMHRP-GCL.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2",
+      "AHO ddG plotting is multiplied by 100; inspect legacy axis labels and scale"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/AHO/baseline/drfp_AHO_ANN_tp_found.ipynb",
+    "issues": [
+      "Missing explicit training/evaluation mode transitions",
+      "AHO ddG plotting is multiplied by 100; inspect legacy axis labels and scale"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_ANN.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_GAT.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-MOE-extend.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-MOE.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot-MOE.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot-MOpE-pdall-gpu.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL-tri-onehot.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/Heck_MMHRP-GCL.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/ablation/Heck_MMHRP_GCL_NoText_GraphMain_MoPE.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/ablation/Heck_MMHRP_NoGraph_TextMain_MoPE.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/ablation/MMHRP_GCL_tri_MoPE_NoCond_pdall.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/ablation/MMHRP_GCL_tri_NoMoPE_pdall.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/baseline/drfp_Heck_ANN_tp_found-onehot.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/baseline/drfp_Heck_ANN_tp_found.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/baseline/Heck_MMHRP-GCL-tri.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/baseline/Heck_MMHRP-GCL.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/baseline/rxnfp_Heck_ANN_tp_found.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Benchmark/main/Heck_MMHRP-GCL-tri-MOpE-pdall-gpu-IR_64.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2",
+      "Warm-restart path is read but no best checkpoint is written to that path"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_JCP/Heck_JCP_ANN.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_JCP/Heck_JCP_GAT.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_JCP/Heck_JCP_MMHRP-GCL.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions",
+      "Best epoch selected using test R2"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Other/Ablation.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Other/FDS.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Other/ShotErrorPlot.ipynb",
+    "issues": [
+      "One shuffled reaction omitted by split+1 test boundary",
+      "Missing explicit training/evaluation mode transitions"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  },
+  {
+    "path": "exp/Heck_Other/SSTS.ipynb",
+    "issues": [
+      "Missing explicit training/evaluation mode transitions"
+    ],
+    "status": "Flagged for protocol/legacy-plot review; not validated by retraining"
+  }
+]

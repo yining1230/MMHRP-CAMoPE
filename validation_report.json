@@ -1,0 +1,11 @@
+{
+  "python_files": 18,
+  "notebooks": 40,
+  "compiled_code_blocks": 316,
+  "syntax_errors": [],
+  "remaining_literal_chinese": [],
+  "original_file_hash_mismatches": [],
+  "source_files_verified": 357,
+  "model_inference": "Both dataset pipelines passed integration checks with temporary synthetic weights and valid real-data fixtures; no trained checkpoint/accuracy verification.",
+  "provenance_note": "Source filenames in release_manifest.json and historical JSON paths are Unicode-escaped to preserve provenance; scientific data files remain unchanged."
+}

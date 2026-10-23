@@ -1,0 +1,17 @@
+{
+  "source": "/root/HeckLit-Code-main-AHO/exp/AHO/explain/AHO_MMHRP-GCL-tri-MoPE-tidu_rs=1-explain/AHO_directional_routing_raw.npz",
+  "number_of_reactions": 1000,
+  "expert_mapping": {
+    "Expert 0": "router output column 0 and prompt_experts[0]",
+    "Expert 1": "router output column 1 and prompt_experts[1]"
+  },
+  "expert_labels_semantic": false,
+  "expert_labels_consistent_with_checkpoint": true,
+  "modality_order_top_to_bottom": [
+    "Graph",
+    "Text",
+    "Numerical"
+  ],
+  "font": "Arial",
+  "original_files_modified": false
+}

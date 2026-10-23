@@ -1,0 +1,36 @@
+{
+  "sample_index_after_shuffle": 3116,
+  "shuffle_seed": 5,
+  "checkpoint": "/root/HeckLit-Code-main/exp/Heck_Benchmark/main/explain/MMHRP_GCL_tri_MoPE_pdall_IR_64_rs=5-best/model_best_R2.pth",
+  "checkpoint_sha256": "cbf9a60003fc9d3046c53cb0530257d816fed3e1d3c089efb1bfc1ef95f05c74",
+  "data": "/root/HeckLit-Code-main/data/Heck/Heck_data_clean.xlsx",
+  "original_conditions": [
+    120.0,
+    24.0
+  ],
+  "original_prediction": 0.8499799370765686,
+  "target_yield": 0.85,
+  "temperature_range": [
+    20.0,
+    220.0
+  ],
+  "time_range": [
+    0.0333333,
+    96.0
+  ],
+  "grid_size": [
+    30,
+    30
+  ],
+  "prediction_range": [
+    0.4859358072280884,
+    1.0298508405685425
+  ],
+  "pixel_size": [
+    1800,
+    1500
+  ],
+  "yield_scale": "Raw model output on fraction scale; no clipping or percent conversion",
+  "cached_forward_verified": true,
+  "note": "Recomputed using current checkpoint and deterministic sample construction. Historical unrecorded random OOV embeddings, if any, cannot be guaranteed identical."
+}

@@ -1,0 +1,619 @@
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import numpy as np
+from .fds import *
+import torch_geometric.nn as pyg_nn
+from torch_geometric.data import Data
+from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
+
+# 5-Layer ANN Regressor
+class ANN(nn.Module):
+    def __init__(self, input_size, FDS=None):
+        super(ANN, self).__init__()
+        self.input_size = input_size
+        self.encoder = nn.Sequential(
+            nn.Linear(input_size, 1000),
+            nn.ReLU(),
+            nn.Linear(1000, 5000),
+            nn.ReLU(),
+            nn.BatchNorm1d(5000),
+        )
+        self.decoder = nn.Sequential(
+            nn.Linear(5000, 1000),
+            nn.ReLU(),
+            nn.BatchNorm1d(1000),
+            nn.Linear(1000, 100),
+            nn.ReLU(),
+            nn.Linear(100, 1)
+        )
+        self.FDS = FDS
+
+    def forward(self, x, y=None, epoch=None, device=None):
+      x = self.encoder(x)
+      if self.FDS is not None:
+            if epoch >= 1:
+                self.FDS.cpu()
+                x = self.FDS.smooth(x.cpu(), y.cpu(), epoch).to(device)
+                y = y.to(device)
+      x = self.decoder(x.to(device))
+      return x
+
+# MMHRP
+class GATU(nn.Module):
+    def __init__(self, node_feature_num, channels, heads):
+        super(GATU, self).__init__()
+        self.conv1 = pyg_nn.GATConv(node_feature_num, channels[0], heads=heads)
+        self.norm1 = nn.BatchNorm1d(channels[0] * heads)
+        self.conv2 = pyg_nn.GATConv(channels[0] * heads, channels[1], heads=heads)
+
+    def forward(self, data):
+        x = data["x"].clone().detach().float()
+        edge_index = data["edge_index"].clone().detach()
+        batch = data["batch"].clone().detach()
+
+        # GAT
+        x1 = self.conv1(x, edge_index)
+        x1 = self.norm1(x1)
+        x1 = F.relu(x1)
+
+        x2 = self.conv2(x1, edge_index)
+        x2 = F.relu(x2)
+        x = torch.cat([x1, x2], 1)
+
+        # Pooling
+        x_mean = pyg_nn.global_mean_pool(x, batch=batch)
+        x_max = pyg_nn.global_max_pool(x, batch=batch)
+        x = torch.cat([x_mean, x_max], 1)
+
+        return x
+
+# GAT
+class GAT(nn.Module):
+    def __init__(self, node_feature_num, EncoderChannels, heads, DecoderChannels):
+        super(GAT, self).__init__()
+        assert len(EncoderChannels) == 2
+        assert len(DecoderChannels) == 2
+        self.encoder = GATU(node_feature_num, EncoderChannels, heads)
+        self.emb_size = 0
+        for i in EncoderChannels:
+            self.emb_size += i * heads
+        self.emb_size = self.emb_size * 2
+        self.decoder = nn.Sequential(
+            nn.Linear(self.emb_size, DecoderChannels[0]),
+            nn.ReLU(),
+            nn.Linear(DecoderChannels[0], DecoderChannels[1]),
+            nn.ReLU(),
+            nn.Linear(DecoderChannels[1], 1)
+        )
+
+    def forward(self, data):
+        # Encoder
+        x = self.encoder(data)
+
+        # Decoder
+        x = self.decoder(x)
+
+        return x
+
+class BiGRU(nn.Module):
+    def __init__(self, input_size, hidden_size, num_layers, output_size, device):
+        super(BiGRU, self).__init__()
+        self.hidden_size = hidden_size
+        self.num_layers = num_layers
+        self.gru = nn.GRU(
+            input_size=input_size,
+            hidden_size=hidden_size,
+            num_layers=num_layers,
+            batch_first=True,  # Input layout: batch, sequence, embedding
+            bidirectional=True
+        )
+        self.fc = nn.Linear(2 * hidden_size, output_size)
+        self.device = device
+
+    def init_hidden(self, x):
+      return torch.zeros(self.num_layers * 2, x.size(0), self.hidden_size).to(self.device)
+
+    def forward(self, x):
+        h0 = self.init_hidden(x)
+        out, _ = self.gru(x, h0) # x is input, size (batch, seq_len, input_size)
+        out = out[:, -1, :]
+        out = self.fc(out)
+        return out
+
+class MMHRP_GCL(nn.Module):
+    def __init__(self,
+                 GraphEncoder: dict,
+                 TextEncoder: dict,
+                 ModalityAlignment: dict,
+                 Decoder: dict,
+                 emb_size: int = 128, # embedding vector size for each encoder
+                 device: str = torch.device('cuda'),
+                 FDS=None
+                 ):
+        super(MMHRP_GCL, self).__init__()
+
+        self.device = device
+        self.GraphEncoder = GraphEncoder
+        self.TextEncoder = TextEncoder
+        self.FDS = FDS
+
+        # 1.Encoder Parser
+        # 1.1 GraphEncoder Parser
+        Graph_params = ["NodeFeatNum", "Channels", "Heads"]
+        for key in GraphEncoder.keys():
+            if key not in Graph_params:
+                raise Exception("%s is not the param in Graph Encoder")
+
+            if key == "NodeFeatNum":
+                NodeFeatNum = GraphEncoder[key]  # 8
+            if key == "Channels":
+                GAT_Channels = GraphEncoder[key]  # [32, 64]
+                assert len(GAT_Channels) == 2
+            if key == "Heads":
+                GAT_Heads = GraphEncoder[key]  # 4
+
+        # GATU output size
+        GATU_OutSize = 0
+        for i in GAT_Channels:
+            GATU_OutSize += i * GAT_Heads
+        self.GATU_OutSize = GATU_OutSize * 2
+
+        # GraphEncoder
+        self.GATU_ReaPro = GATU(NodeFeatNum, GAT_Channels, GAT_Heads)
+        self.GATU_CatSol = GATU(NodeFeatNum, GAT_Channels, GAT_Heads)
+        # GATU for Reactants and Products
+        self.ReaProEncoder = nn.Sequential(
+            self.GATU_ReaPro,
+            nn.Linear(self.GATU_OutSize, emb_size),
+        )
+        # GATU for Catalysts and Solvents
+        self.CatSolEncoder = nn.Sequential(
+            self.GATU_CatSol,
+            nn.Linear(self.GATU_OutSize, emb_size),
+        )
+
+        # 1.2 TextEncoder Parser
+        Text_params = ["SmiFeatNum", "Heads", "BigruChannels", "BigruNumlayer"]
+        for key in TextEncoder.keys():
+            if key not in Text_params:
+                raise Exception("%s is not the param in Text Encoder")
+
+            if key == "SmiFeatNum":
+                self.SmiFeatNum = TextEncoder[key]  # 128
+            if key == "Heads":
+                Trans_Heads = TextEncoder[key]  # 4
+            if key == "BigruChannels":
+                BigruChannels = TextEncoder[key]  # [128, 128]
+                assert len(BigruChannels) == 2
+                bigru_input, bigru_hidden = BigruChannels
+            if key == "BigruNumlayer":
+                bigru_num_layers = TextEncoder[key]  # 2
+
+        # TextEncoder
+        self.trans = nn.TransformerEncoderLayer(d_model=self.SmiFeatNum, nhead=Trans_Heads, batch_first=True,
+                                                norm_first=True)
+        self.bigru = BiGRU(bigru_input, bigru_hidden, bigru_num_layers, emb_size, device)
+        self.RxnSmiEncoder = nn.Sequential(
+            self.trans,
+            self.bigru,
+        )
+
+        # 3. Modality Alignment Parser
+        MA_params = ["Heads"]
+        for key in ModalityAlignment.keys():
+            if key not in MA_params:
+                raise Exception("%s is not the param in ModalityAlignment")
+
+            if key == "Heads":
+                MA_Heads = ModalityAlignment[key]  # 4
+
+        self.MA = nn.TransformerEncoderLayer(d_model=emb_size * 3, nhead=MA_Heads)
+
+        # 4. Decoder Parser
+        Decoder_params = ["Channels"]
+        for key in Decoder.keys():
+            if key not in Decoder_params:
+                raise Exception("%s is not the param in Decoder")
+
+            if key == "Channels":
+                Decoder_Channels = Decoder[key]  # [1000, 500, 100]
+                assert len(Decoder_Channels) == 3
+
+        # Decoder
+        self.decoder = nn.Sequential(
+            nn.Linear(emb_size * 3, Decoder_Channels[0]),
+            nn.Dropout(0.8),
+            nn.ReLU(),
+            nn.BatchNorm1d(Decoder_Channels[0]),
+            
+
+            nn.Linear(Decoder_Channels[0], Decoder_Channels[1]),
+            nn.ReLU(),
+
+            nn.Linear(Decoder_Channels[1], Decoder_Channels[2]),
+            nn.ReLU(),
+
+            nn.Linear(Decoder_Channels[2], 1)
+        )
+
+    def forward(self, x, y=None, epoch=None, device=None):
+        # import data
+        ReaPro_data, CatSol_data, RxnSmi = x
+        # Graph Modality
+        graph_emb = torch.cat([self.ReaProEncoder(ReaPro_data),
+                                   self.CatSolEncoder(CatSol_data)], dim=1)
+        # Text Modality
+        text_embed = self.RxnSmiEncoder(RxnSmi)
+        x = torch.cat([graph_emb, text_embed], dim=1)
+
+
+        # Modality Alignment
+        x = self.MA(x)
+
+        # FDS operation
+        if self.FDS is not None:
+            if epoch >= 1:
+                self.FDS.cpu()
+                x = self.FDS.smooth(x.cpu(), y.cpu(), epoch).to(device)
+                y = y.to(device)
+
+        # Decoder
+        x = self.decoder(x)
+
+        return x
+
+class MMHRP_GCL_tri(nn.Module):
+    def __init__(self,
+                 GraphEncoder: dict,
+                 TextEncoder: dict,
+                 ConditionEncoder: dict,
+                 ModalityAlignment: dict,
+                 Decoder: dict,
+                 emb_size: int = 128, # embedding vector size for each encoder
+                 device: str = torch.device('cuda'),
+                 FDS=None
+                 ):
+        super(MMHRP_GCL_tri, self).__init__()
+
+        self.device = device
+        self.GraphEncoder = GraphEncoder
+        self.TextEncoder = TextEncoder
+        self.FDS = FDS
+
+        # 1.Encoder Parser
+        # 1.1 GraphEncoder Parser
+        Graph_params = ["NodeFeatNum", "Channels", "Heads"]
+        for key in GraphEncoder.keys():
+            if key not in Graph_params:
+                raise Exception("%s is not the param in Graph Encoder")
+
+            if key == "NodeFeatNum":
+                NodeFeatNum = GraphEncoder[key]  # 8
+            if key == "Channels":
+                GAT_Channels = GraphEncoder[key]  # [32, 64]
+                assert len(GAT_Channels) == 2
+            if key == "Heads":
+                GAT_Heads = GraphEncoder[key]  # 4
+
+        # GATU output size
+        GATU_OutSize = 0
+        for i in GAT_Channels:
+            GATU_OutSize += i * GAT_Heads
+        self.GATU_OutSize = GATU_OutSize * 2
+
+        # GraphEncoder
+        self.GATU_ReaPro = GATU(NodeFeatNum, GAT_Channels, GAT_Heads)
+        self.GATU_CatSol = GATU(NodeFeatNum, GAT_Channels, GAT_Heads)
+        # GATU for Reactants and Products
+        self.ReaProEncoder = nn.Sequential(
+            self.GATU_ReaPro,
+            nn.Linear(self.GATU_OutSize, emb_size),
+        )
+        # GATU for Catalysts and Solvents
+        self.CatSolEncoder = nn.Sequential(
+            self.GATU_CatSol,
+            nn.Linear(self.GATU_OutSize, emb_size),
+        )
+
+        # 1.2 TextEncoder Parser
+        Text_params = ["SmiFeatNum", "Heads", "BigruChannels", "BigruNumlayer"]
+        for key in TextEncoder.keys():
+            if key not in Text_params:
+                raise Exception("%s is not the param in Text Encoder")
+
+            if key == "SmiFeatNum":
+                self.SmiFeatNum = TextEncoder[key]  # 128
+            if key == "Heads":
+                Trans_Heads = TextEncoder[key]  # 4
+            if key == "BigruChannels":
+                BigruChannels = TextEncoder[key]  # [128, 128]
+                assert len(BigruChannels) == 2
+                bigru_input, bigru_hidden = BigruChannels
+            if key == "BigruNumlayer":
+                bigru_num_layers = TextEncoder[key]  # 2
+
+        # TextEncoder
+        self.trans = nn.TransformerEncoderLayer(d_model=self.SmiFeatNum, nhead=Trans_Heads, batch_first=True,
+                                                norm_first=True)
+        self.bigru = BiGRU(bigru_input, bigru_hidden, bigru_num_layers, emb_size, device)
+        self.RxnSmiEncoder = nn.Sequential(
+            self.trans,
+            self.bigru,
+        )
+
+        # 1.3 TextEncoder Parser
+        Cond_params = ["InputDim", "HiddenDim", "OutDim"]
+        for key in ConditionEncoder.keys():
+            if key not in Cond_params:
+                raise Exception("%s is not the param in Condition Encoder" % key)
+            if key == "InputDim":
+                Cond_InputDim = ConditionEncoder[key]
+            if key == "HiddenDim":
+                Cond_HiddenDim = ConditionEncoder[key]
+            if key == "OutDim":
+                Cond_OutDim = ConditionEncoder[key]
+
+        self.CondEncoder = nn.Sequential(
+            nn.Linear(Cond_InputDim, Cond_HiddenDim),
+            nn.ReLU(),
+            nn.Linear(Cond_HiddenDim, Cond_OutDim),
+            nn.ReLU()
+        )
+
+        
+        # 3. Modality Alignment Parser
+        MA_params = ["Heads"]
+        for key in ModalityAlignment.keys():
+            if key not in MA_params:
+                raise Exception("%s is not the param in ModalityAlignment")
+
+            if key == "Heads":
+                MA_Heads = ModalityAlignment[key] 
+
+        # Total embedding dimension: graph(2*emb_size) + text(emb_size) + condition(OutDim)
+        total_emb = emb_size*2 + emb_size + Cond_OutDim
+
+        self.MA = nn.TransformerEncoderLayer(d_model=total_emb, nhead=MA_Heads)
+
+        # 4. Decoder Parser
+        Decoder_params = ["Channels"]
+        for key in Decoder.keys():
+            if key not in Decoder_params:
+                raise Exception("%s is not the param in Decoder")
+
+            if key == "Channels":
+                Decoder_Channels = Decoder[key]  # [1000, 500, 100]
+                assert len(Decoder_Channels) == 3
+
+        # Decoder
+        self.decoder = nn.Sequential(
+            nn.Linear(total_emb, Decoder_Channels[0]),
+            nn.Dropout(0.8),
+            nn.ReLU(),
+            nn.BatchNorm1d(Decoder_Channels[0]),
+            
+
+            nn.Linear(Decoder_Channels[0], Decoder_Channels[1]),
+            nn.ReLU(),
+
+            nn.Linear(Decoder_Channels[1], Decoder_Channels[2]),
+            nn.ReLU(),
+
+            nn.Linear(Decoder_Channels[2], 1)
+        )
+
+    def forward(self, x, y=None, epoch=None, device=None):
+        # import data
+        ReaPro_data, CatSol_data, RxnSmi, Cond_data = x
+        # Graph Modality
+        graph_emb = torch.cat([self.ReaProEncoder(ReaPro_data),
+                                   self.CatSolEncoder(CatSol_data)], dim=1)
+        
+        # Text Modality
+        text_embed = self.RxnSmiEncoder(RxnSmi)
+        # x = torch.cat([graph_emb, text_embed], dim=1)
+
+        # Condition Modality
+        cond_emb = self.CondEncoder(Cond_data)
+        
+        # Three-modality fusion
+        x = torch.cat([graph_emb, text_embed, cond_emb], dim=1)
+        
+        # Modality Alignment
+        x = self.MA(x)
+
+        # FDS operation
+        if self.FDS is not None:
+            if epoch >= 1:
+                self.FDS.cpu()
+                x = self.FDS.smooth(x.cpu(), y.cpu(), epoch).to(device)
+                y = y.to(device)
+
+        # Decoder
+        x = self.decoder(x)
+
+        return x
+
+class MMHRP_GCL_tri_onehot(nn.Module):
+    def __init__(self,
+                 GraphEncoder: dict,
+                 TextEncoder: dict,
+                 ConditionEncoder: dict,
+                 ModalityAlignment: dict,
+                 Decoder: dict,
+                 emb_size: int = 128, # embedding vector size for each encoder
+                 device: str = torch.device('cuda'),
+                 FDS=None
+                 ):
+        super(MMHRP_GCL_tri_onehot, self).__init__()
+
+        self.device = device
+        self.GraphEncoder = GraphEncoder
+        self.TextEncoder = TextEncoder
+        self.FDS = FDS
+
+        # 1.Encoder Parser
+        # 1.1 GraphEncoder Parser
+        Graph_params = ["NodeFeatNum", "Channels", "Heads"]
+        for key in GraphEncoder.keys():
+            if key not in Graph_params:
+                raise Exception("%s is not the param in Graph Encoder")
+
+            if key == "NodeFeatNum":
+                NodeFeatNum = GraphEncoder[key]  # 8
+            if key == "Channels":
+                GAT_Channels = GraphEncoder[key]  # [32, 64]
+                assert len(GAT_Channels) == 2
+            if key == "Heads":
+                GAT_Heads = GraphEncoder[key]  # 4
+
+        # GATU output size
+        GATU_OutSize = 0
+        for i in GAT_Channels:
+            GATU_OutSize += i * GAT_Heads
+        self.GATU_OutSize = GATU_OutSize * 2
+
+        # GraphEncoder
+        self.GATU_ReaPro = GATU(NodeFeatNum, GAT_Channels, GAT_Heads)
+        self.GATU_CatSol = GATU(NodeFeatNum, GAT_Channels, GAT_Heads)
+        # GATU for Reactants and Products
+        self.ReaProEncoder = nn.Sequential(
+            self.GATU_ReaPro,
+            nn.Linear(self.GATU_OutSize, emb_size),
+        )
+        # GATU for Catalysts and Solvents
+        self.CatSolEncoder = nn.Sequential(
+            self.GATU_CatSol,
+            nn.Linear(self.GATU_OutSize, emb_size),
+        )
+
+        # 1.2 TextEncoder Parser
+        Text_params = ["SmiFeatNum", "Heads", "BigruChannels", "BigruNumlayer"]
+        for key in TextEncoder.keys():
+            if key not in Text_params:
+                raise Exception("%s is not the param in Text Encoder")
+
+            if key == "SmiFeatNum":
+                self.SmiFeatNum = TextEncoder[key]  # 128
+            if key == "Heads":
+                Trans_Heads = TextEncoder[key]  # 4
+            if key == "BigruChannels":
+                BigruChannels = TextEncoder[key]  # [128, 128]
+                assert len(BigruChannels) == 2
+                bigru_input, bigru_hidden = BigruChannels
+            if key == "BigruNumlayer":
+                bigru_num_layers = TextEncoder[key]  # 2
+
+        # TextEncoder
+        self.trans = nn.TransformerEncoderLayer(d_model=self.SmiFeatNum, nhead=Trans_Heads, batch_first=True,
+                                                norm_first=True)
+        self.bigru = BiGRU(bigru_input, bigru_hidden, bigru_num_layers, emb_size, device)
+        self.RxnSmiEncoder = nn.Sequential(
+            self.trans,
+            self.bigru,
+        )
+
+        # 1.3 TextEncoder Parser
+        Cond_params = ["InputDim", "HiddenDim", "OutDim"]
+        for key in ConditionEncoder.keys():
+            if key not in Cond_params:
+                raise Exception("%s is not the param in Condition Encoder" % key)
+            if key == "InputDim":
+                Cond_InputDim = ConditionEncoder[key]
+            if key == "HiddenDim":
+                Cond_HiddenDim = ConditionEncoder[key]
+            if key == "OutDim":
+                Cond_OutDim = ConditionEncoder[key]
+
+        self.CondEncoder = nn.Sequential(
+            nn.Linear(Cond_InputDim, Cond_HiddenDim),
+            nn.ReLU(),
+            nn.Linear(Cond_HiddenDim, Cond_OutDim),
+            nn.ReLU()
+        )
+
+        
+        # 3. Modality Alignment Parser
+        MA_params = ["Heads"]
+        for key in ModalityAlignment.keys():
+            if key not in MA_params:
+                raise Exception("%s is not the param in ModalityAlignment")
+
+            if key == "Heads":
+                MA_Heads = ModalityAlignment[key] 
+
+        # Total embedding dimension: graph(2*emb_size) + text(emb_size) + condition(OutDim)
+        total_emb = emb_size*2 + emb_size + Cond_OutDim
+
+        self.MA = nn.TransformerEncoderLayer(d_model=total_emb, nhead=MA_Heads)
+
+        # 4. Decoder Parser
+        Decoder_params = ["Channels"]
+        for key in Decoder.keys():
+            if key not in Decoder_params:
+                raise Exception("%s is not the param in Decoder")
+
+            if key == "Channels":
+                Decoder_Channels = Decoder[key]  # [1000, 500, 100]
+                assert len(Decoder_Channels) == 3
+
+        # Decoder
+        self.decoder = nn.Sequential(
+            nn.Linear(total_emb, Decoder_Channels[0]),
+            nn.Dropout(0.8),
+            nn.ReLU(),
+            nn.BatchNorm1d(Decoder_Channels[0]),
+            
+
+            nn.Linear(Decoder_Channels[0], Decoder_Channels[1]),
+            nn.ReLU(),
+
+            nn.Linear(Decoder_Channels[1], Decoder_Channels[2]),
+            nn.ReLU(),
+
+            nn.Linear(Decoder_Channels[2], 1)
+        )
+
+    def forward(self, x, y=None, epoch=None, device=None):
+        # import data
+        ReaPro_data, CatSol_data, RxnSmi, Cond_data = x
+        # Graph Modality
+        graph_emb = torch.cat([self.ReaProEncoder(ReaPro_data),
+                                   self.CatSolEncoder(CatSol_data)], dim=1)
+        
+        # Text Modality
+        text_embed = self.RxnSmiEncoder(RxnSmi)
+        # x = torch.cat([graph_emb, text_embed], dim=1)
+
+        # Condition Modality
+        # Cond_data is a one-hot tensor [batch, Cond_InputDim]
+        cond_emb = self.CondEncoder(Cond_data.float())
+        
+        # Three-modality fusion
+        x = torch.cat([graph_emb, text_embed, cond_emb], dim=1)
+        
+        # Modality Alignment
+        x = self.MA(x)
+
+        # FDS operation
+        if self.FDS is not None:
+            if epoch >= 1:
+                self.FDS.cpu()
+                x = self.FDS.smooth(x.cpu(), y.cpu(), epoch).to(device)
+                y = y.to(device)
+
+        # Decoder
+        x = self.decoder(x)
+
+        return x
+
+# Model Evaluation Function
+def RMSE(pred, true):
+    return np.sqrt(mean_squared_error(true, pred))
+
+def R2(pred, true):
+   return r2_score(true, pred)
+
+def MAE(pred, true):
+    return mean_absolute_error(true, pred)

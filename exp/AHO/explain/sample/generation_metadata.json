@@ -1,0 +1,13 @@
+{
+  "source_directory": "E:\\codex\\sample1092_shared_scale",
+  "source_grids": [
+    "expert_0_temp_pressure_grid.csv",
+    "expert_1_temp_pressure_grid.csv"
+  ],
+  "shared_color_scale": [
+    0.24215148389339447,
+    0.7578484416007996
+  ],
+  "change": "Removed the original-condition star and its legend only.",
+  "original_files_modified": false
+}
